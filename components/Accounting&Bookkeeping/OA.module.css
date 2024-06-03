@@ -1,0 +1,124 @@
+.acountingBanner_container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 80px 0px;
+}
+
+.acountingBanner_left {
+    flex: 1;
+display: flex;
+flex-direction: column;
+justify-content:center ;
+}
+
+.OA_sec2_container {
+    padding: 80px 0px;
+    color: #FFFFFF;
+}
+
+.OA_sec2_sub {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.OA_sec2_subL {
+    flex: 1;
+}
+
+.OA_sec2_sub_detail {
+    width: 93%;
+}
+
+.MA_section ul li{
+    list-style: none;
+    margin-bottom: 10px;
+    transition: .3s;
+    display: flex;
+    cursor: pointer;
+}
+.MA_section,
+.MA_sectionL,
+.MA_section2 {
+    flex: 1;
+}
+
+.MA_section2 {
+    display: flex;
+    justify-content: flex-end;
+}
+.MA_section ul{
+    margin-top: 15px;
+    margin-left: -40px
+}
+.MA_section ul li .key {
+    margin-left: 15px;
+}
+
+.MA_section {
+    font-size: 18px;
+    font-weight: 300;
+}
+.fsa_list_width {
+    width: 90%;
+}
+.fsa_list_width2 {
+    width: 88%;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .OA_sec2_container,
+    .acountingBanner_container{
+        padding: 80px 20px;
+    }
+    .acountingBanner_container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (min-device-width: 480px)
+and (max-device-width:768px){
+    .acountingBanner_container{
+        padding: 0 20px 40px;
+        display: block;
+    }
+    .OA_sec2_container{
+        padding: 40px 20px;
+    }
+    .OA_sec2_sub{
+        display: block;
+    }
+
+    .acountingBanner_containerBook {
+    padding: 20px;
+    flex-direction: column;
+}
+.acountingBanner_left {
+    order: 2;
+}  
+}
+@media screen and (max-device-width: 480px)  {
+    .acountingBanner_container{
+        padding: 30px 0px 40px;
+        display: block;
+    }
+    .OA_sec2_container{
+        padding: 40px 0px;
+    }
+    .OA_sec2_sub{
+        display: block;
+    }
+
+    .acountingBanner_containerBook {
+    padding: 20px;
+    flex-direction: column;
+}
+.acountingBanner_left {
+    order: 2;
+}
+}

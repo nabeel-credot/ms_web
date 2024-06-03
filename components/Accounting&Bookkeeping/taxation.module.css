@@ -1,0 +1,52 @@
+.accounting_service_container{
+    padding: 40px 0px 80px;
+    color: #FCFCFC;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.left,.right{
+flex:1;
+}
+.left{
+    padding-right: 30px;
+}
+.payrollService_subContainer2 ul{
+    margin-top: 15px;
+    margin-left: -40px
+}
+.payrollService_subContainer2 ul li{
+    list-style: none;
+    margin-bottom: 10px;
+    transition: .3s;
+    display: flex;
+    cursor: pointer;
+}
+.payrollService_subContainer2 ul li .key{
+    margin-left: 15px;
+    font-size: 16px;
+}
+@media only screen and (max-width: 1330px) {
+    .accounting_service_container{
+        display: block;
+    }
+}
+@media screen and (min-device-width: 480px) and (max-device-width:767px) {
+    .accounting_service_container {
+        padding: 40px 20px;
+        display: block;
+    }
+}
+@media screen and (max-device-width: 480px)  {
+.accounting_service_container {
+    padding: 40px 20px;
+    display: block;
+}
+.payrollService_subContainer2 ul li .key{
+    font-size: 14px; 
+}
+.left{
+    padding-right: 0;
+}
+}

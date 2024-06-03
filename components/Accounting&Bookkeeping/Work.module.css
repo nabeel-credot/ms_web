@@ -1,0 +1,270 @@
+
+
+.Work_with_us_Section {
+    padding: 0px 0px 100px;
+}
+
+.Work_with_us_Section_sub {
+    display: flex;
+   align-items: center;
+   flex-direction: column;
+    justify-content: center;
+    /* column-gap: 25px;
+    row-gap: 25px; */
+    /* flex-wrap: wrap; */
+    margin-top: 60px;
+}
+
+.Work_with_us_Section_card:last-child {
+    margin-right: 0;
+}
+
+.Work_with_us_Section2 {
+    /* background-color: #192B3A; */
+    padding: 80px 0px 0;
+    width: 100%;
+}
+
+
+.jobBannerContainer {
+    width: 100%;
+    display: flex;
+    background-color: #192B3A;
+    align-items: center;
+    padding: 100px 0px 40px;
+    border-bottom-left-radius: 100px;
+}
+
+
+.Job_Vacancy_section {
+    padding: 0px 0px 80px;
+    width: 100%;
+}
+.widthC{
+    width: 86%;
+}
+.job_description {
+    padding-top: 80px;
+}
+
+.job_resposibilities {
+    padding-top: 80px;
+
+}
+
+.job_resposibilities ul{
+    margin-top: 15px;
+    margin-left: -40px
+}
+.job_resposibilities ul li .key{
+    margin-left: 15px;
+}
+.job_resposibilities ul li{
+    list-style: none;
+    margin-bottom: 10px;
+    transition: .3s;
+    display: flex;
+    cursor: pointer;
+    font-size: 16px;
+}
+.job_description ul li {
+    font-size: 16px;
+}
+
+.Job_Vacancy_section_sub {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Job_Vacancy_section_subL {
+    flex: 2;
+}
+
+.Job_Vacancy_section_subR {
+    flex: 1;
+}
+
+.noteWidth {
+    margin-top: 100px;
+    width: 95%;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 110%;    
+}
+
+/* .Job_Vacancy_section_subR{
+    display: flex;
+    justify-content: flex-end;
+
+} */
+
+.job {
+    color: #FCFCFC;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 100%;
+}
+
+.work_title {
+    color: #FCFCFC;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 110%;
+}
+
+.work_detail {
+    color: #D5AF32;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 110%;
+}
+
+.note {
+    color: #FCFCFC;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 110%;
+}
+
+.note2 {
+    color: #D4AE31;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 110%;
+}
+
+.work_detail2 {
+    color: #FCFCFC;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 110%;
+}
+.widthC2{
+    width: 96%;
+}
+.link{
+    font-weight: 500;
+    transition: .3s ease-in;
+    font-size: 18px;
+    text-align: center;
+    width: 70%;
+    margin-bottom: 30px;
+}
+/* .link:hover{
+    color: #D4AE31;
+} */
+@media only screen and (max-width: 1200px) {
+    .Work_with_us_Section_sub{
+        justify-content: center;
+    }
+    .Job_Vacancy_section{
+        padding: 80px 20px;
+    }
+    .Work_with_us_Section_card {
+        margin-right: 0px;
+        /* margin-bottom: 30px; */
+    }
+}
+@media screen and (min-device-width: 480px)
+and (max-device-width:768px){
+    .Work_with_us_Section ,.Work_with_us_Section2{
+        padding: 40px 20px;
+    }
+    .Work_with_us_Section_sub{
+        margin-top: 40px;
+    }
+    .jobBannerContainer {
+        flex-direction: column;
+        padding:50px 20px;
+    }
+    .job {
+        font-size: 14px;
+    }
+    .work_title {
+        font-size: 24px
+    }
+    .work_detail,.work_detail2 {
+        font-size: 14px;
+    }
+    .note,.note2 {
+        font-size: 16px;
+    }
+    .Job_Vacancy_section{
+        padding: 40px 20px;
+    }
+    .job_description {
+        padding-top:0px;
+    }
+    .job_resposibilities{
+        padding-top:40px;
+    }
+    .job_description ul li ,.job_resposibilities ul li{
+        font-size: 14px;
+    }
+    .Job_Vacancy_section_subR {
+        margin-top: 30px;
+    }
+    .noteWidth {
+        margin-top: 0px;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1300px) {
+    .Work_with_us_Section_sub {
+        justify-content: center;
+    }
+}
+@media screen and (max-device-width: 480px)  {
+    .Work_with_us_Section ,.Work_with_us_Section2{
+        padding: 40px 0px;
+       
+    }
+    .Work_with_us_Section{
+        padding-top: 0;
+    }
+    .Work_with_us_Section_sub{
+        margin-top: 40px;
+    }
+    .jobBannerContainer {
+        flex-direction: column;
+        padding:50px 0px;
+    }
+    .job {
+        font-size: 14px;
+    }
+    .work_title {
+        font-size: 24px
+    }
+    .work_detail,.work_detail2 {
+        font-size: 14px;
+    }
+    .note,.note2 {
+        font-size: 16px;
+    }
+    .Job_Vacancy_section{
+        padding: 40px 0px;
+    }
+    .job_description {
+        padding-top:0px;
+    }
+    .job_resposibilities{
+        padding-top:40px;
+    }
+    .job_description ul li ,.job_resposibilities ul li{
+        font-size: 14px;
+    }
+    .Job_Vacancy_section_subR {
+        margin-top: 30px;
+    }
+    .noteWidth {
+        margin-top: 0px;
+        width: 100%;
+    }
+    .Job_Vacancy_section_sub{
+        display: block;
+    }
+    .widthC,.widthC2{
+        width: 100%;
+    }
+}

@@ -1,0 +1,362 @@
+.container{
+    background-color: #FFFFFF;
+    color: #212120;
+}
+.banner_container_Blue{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;   
+}
+.banner_container_Blue{
+    background-image:
+        linear-gradient(rgba(25, 43, 58, 0.9), rgba(25, 43, 58, 0.9)),
+        url('/images/accBgN.png');
+}
+
+.banner_container_{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;   
+}
+
+.banner_container {
+    width: 100%;
+    /* background-color: #F5F5F5; */
+    position: relative;
+}
+.MenuBar{
+    width: 100%;
+    background-color: #192B3A;
+}
+.ashBg{
+    background-color: #F5F5F5;
+    width: 100%;
+}
+.Banner2Wrap{
+    width: 100%;
+    background-color: #192B3A;
+}
+.WhatYouGetWithMsWrap{
+    width: 100%;
+    margin:80px 0 0;
+}
+.AccountingServiceWrap{
+    width: 100%;
+    background-color: #192B3A;
+}
+.Accounting_services_pointsWrap{
+    width: 100%;
+    background-color: #F5F5F5;
+}
+.StartConversation_container{
+width: 100%;
+background-color: #F5F5F5;
+}
+.redBgWrap{
+    width: 100%;
+    background-color: #F8F1DC;
+}
+.AuditServiceBlue{
+    width: 100%;
+    background-color: #192B3A;
+}
+.corporateSec3Wrap{
+    width: 100%;
+    background-color: rgba(212, 174, 49, 0.17);
+}
+.corporateSecFAQWrap{
+    width: 100%;
+    background-color: #F5F5F5;
+}
+.whiteBgDown,.whiteBgDown1{
+    padding: 0px 0 80px;
+    background-color: #FFFFFF;
+}
+
+.whiteBg2 {
+    padding: 80px 0;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.downloadContainerGray {
+    width: 100%;
+    background-color: #192B3A;
+}
+
+
+.downloadContainerWhite {
+    padding: 80px 0 0;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+.downloadContainerWhite2{
+    padding: 0px 0 80px ;
+    width: 100%;
+    background-color: #FFFFFF;   
+}
+
+
+.service_container {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 100%;
+    background-color: #192B3A;
+}
+.mobOnly{
+    display: none;
+}
+.enterpriseBg{
+    padding: 80px 0;  background-color: #FFFFFF;
+}
+.award_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 80px;
+    background:linear-gradient(to bottom, #D4AE31 60%, #D4AE31 50%, #fff 50%, #fff 100%);
+  }
+  .yellowBgWrap{
+    width: 100%;
+    background-color: #D4AE31;
+}
+.marginTp{
+    margin-top: 80px;
+
+}
+.marginTpW{
+    margin-top: 80px;
+
+}
+.marginTp40{
+    margin-top: 40px;
+}
+.marginTp40W{
+    margin-top: 40px;
+}
+.marginBtm{
+    margin-bottom: 40px;
+}
+
+/* popup */
+.popup_div {
+    background: #192b3a65;
+  
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+  
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+  }
+  .popup_container {
+    max-width: 580px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    border-radius: 0 25px 0 25px;
+    margin: auto;
+    color: #192b3a;
+    position: relative;
+    width: 100%;
+  }
+  
+  .popup_bg_title {
+    white-space: nowrap;
+    background: #d4ae32;
+    width: max-content;
+    padding: 0 10px;
+    font-size: 20px;
+    margin-inline: auto;
+    border-radius: 0 15px 0 15px;
+    font-weight: 600;
+    padding: 0px 30px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 21px;
+  }
+  
+  .popup_head2 {
+    font-size: 24px;
+    /* line-height: 46px; */
+    text-align: center;
+    background-color: #f9f9f9;
+    max-width: 475px;
+    margin: auto;
+    padding: 32px 0px 21px 0px;
+  }
+  .popup_headsub {
+    font-weight: 600;
+    /* line-height: 46px; */
+  }
+  .popup_content {
+    background-color: white;
+    /* padding: 15px 157px; */
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    padding: 9px 32px 32px 32px;
+  }
+  
+  .popup_content p {
+    max-width: 637px;
+    margin: auto;
+  }
+  .popup_img {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    margin: auto;
+    margin-bottom: 19px;
+  }
+  .popup_button {
+    /* border: 2px solid #192B3A; */
+    /* width: 222px;
+      height: 78px; */
+    border-radius: 0px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+    cursor: pointer;
+    background-color: #d5af32;
+    border: none;
+    height: 43px;
+    width: 170px;
+  }
+  
+  .popup_close {
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    top: 32px;
+    right: 32px;
+  }
+  .popup_button_div {
+    display: flex;
+    gap: 42px;
+    justify-content: center;
+    padding: 22px 0px;
+  }
+  .popesr {
+    max-width: 435px !important;
+  }
+
+
+@media screen and (min-device-width: 768px)
+and (max-device-width:1024px) {
+    /* .mobOnly{
+        display: block;
+    }
+    .webOnly{
+        display: none;
+    } */
+}
+
+@media (max-width: 500px) {
+    .popup_bg_title {
+      font-size: 16px;
+    }
+  }
+@media screen and (min-device-width: 480px)
+and (max-device-width:768px){
+    .mobOnly{
+        display: block;
+    }
+    .webOnly{
+        display: none;
+    }
+    .marginTp{
+        margin-top: 40px;
+    
+    }
+    .marginTpW{
+        margin-top: 40px;
+    
+    }
+    .marginTp40{
+        margin-top: 40px;
+    }
+    .marginBtm{
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-device-width: 480px)  {
+    .banner_container{
+        background-color: #ffffff;
+    }
+    /* .whiteBg,.downloadContainerGray ,.downloadContainerWhite{
+        padding-bottom:40px ;
+    } */
+    .downloadContainerWhite {
+        padding: 40px 0 0;
+    }
+    .mobOnly{
+        display: block;
+    }
+    .webOnly{
+        display: none;
+    }
+    .padBottomBg{
+        padding-bottom: 40px;
+        background-color: #ffffff;
+    }
+    .paddingBgMob{
+        padding: 40px 0;
+        background-color: #ffffff;    
+    }
+    .paddingBgMob1{
+        padding: 40px 0 0;
+        background-color: #ffffff;    
+    }
+    
+    /* .ashBg{
+        background-color: #ffffff;    
+    } */
+    .whiteBg2{
+        padding: 0px 0 40px;
+    }
+    .downloadContainerWhite2{
+        padding: 40px 0 ;
+    }
+    .marginTmob{
+        margin: 30px 0;
+    }
+    .marginTmobU{
+        margin-top: 40px;
+    }
+    .award_container{
+        margin: 30px 0;
+        display: block;
+            }
+            .whiteBgDown{
+                padding: 0px 0 40px;
+            }
+            .whiteBgDown1{
+                padding: 0px 0 0px;
+            }
+            .marginTp{
+                margin-top: 40px;
+            }
+         .marginTpW,.marginTp40W{
+            margin-top: 0;
+         }
+         .WhatYouGetWithMsWrap{
+            margin-top: 40px;
+         }
+         .marginBtm{
+            margin-bottom:30px;
+        }
+}
+@media (max-width: 400px) {
+    .popup_bg_title {
+      font-size: 12px;
+    }
+  }

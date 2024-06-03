@@ -1,0 +1,304 @@
+.container {
+    background-color: #FFFFFF;
+    color: #212120;
+}
+/* .lightContainer {
+    background-color: #FFFFFF;
+    opacity: .5;
+    color: #212120;
+} */
+.banner_container_Blue,.banner_container_CG,.banner_container_IA,.banner_container_RM,.banner_container_PP,.banner_container_TA
+,.banner_container_FDD,.banner_container_BV,.banner_container_DA,.banner_container_MA,.banner_container_BS,.banner_container_MA2
+,.banner_container_CFO,.banner_container_FP,.banner_container_FF,.banner_container_FM,.banner_container_Tech,.banner_container_DT
+,.banner_container_RPA,.banner_container_ERP,.banner_container_AI,.banner_container_DA2,.banner_container_BC,.banner_container_Adv,
+.banner_container_adgm1,.banner_container_adgm2,.banner_container_dmcc1,.banner_container_dmcc2,.banner_container_masdar2,
+.banner_container_masdar3{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;   
+}
+.banner_container_Blue {
+    background-image:
+        linear-gradient(rgba(25, 43, 58, 0.9), rgba(25, 43, 58, 0.9)),
+        url('/images/riskBG.jpg');
+}
+.banner_container_IA{
+    background-image:
+        linear-gradient(rgba(25, 43, 58, 0.9), rgba(25, 43, 58, 0.9)),
+        url('/images/iaBg.png');
+}
+.banner_container_CG{
+    background-image:
+        linear-gradient(rgba(25, 43, 58, 0.9), rgba(25, 43, 58, 0.9)),
+        url('/images/cgBg.png');
+}
+.banner_container_RM{
+    background-image:
+    linear-gradient(rgba(25, 43, 58, 0.9), rgba(25, 43, 58, 0.9)),
+    url('/images/rmBg.png');
+}
+.banner_container_PP{
+    background-image:
+    linear-gradient(rgba(25, 43, 58, 0.9), rgba(25, 43, 58, 0.9)),
+    url('/images/ppBg.png');
+}
+.banner_container_TA{
+    background-image:
+    linear-gradient(rgba(25, 43, 58, 0.9), rgba(25, 43, 58, 0.9)),
+    url('/images/taBg.png');
+}
+.banner_container_FDD{
+    background-image:
+    linear-gradient(rgba(25, 43, 58, 0.9), rgba(25, 43, 58, 0.9)),
+    url('/images/fddBgN.png');
+}
+.banner_container_BV{
+    background-image:
+    linear-gradient(rgba(25, 43, 58, 0.9), rgba(25, 43, 58, 0.9)),
+    url('/images/bvBg1.png');
+    background-position:bottom;
+}
+.banner_container_DA{
+    background-image:
+    linear-gradient(rgba(25, 43, 58, 0.9), rgba(25, 43, 58, 0.9)),
+    url('/images/daBg.png');
+}
+.banner_container_MA{
+    background-image:
+    linear-gradient(rgba(25, 43, 58, 0.9), rgba(25, 43, 58, 0.9)),
+    url('/images/maBgN.png');
+}
+.banner_container_BS{
+    background-image:
+    linear-gradient(rgba(25, 43, 58, 0.9), rgba(25, 43, 58, 0.9)),
+    url('/images/bsBgN.png');
+}
+.banner_container_MA2{
+    background-image:
+    linear-gradient(rgba(25, 43, 58, 0.9), rgba(25, 43, 58, 0.9)),
+    url('/images/maBg2.png');
+}
+.banner_container_CFO{
+    background-image:
+    linear-gradient(rgba(25, 43, 58, 0.9), rgba(25, 43, 58, 0.9)),
+    url('/images/cfoBgN.png');
+}
+.banner_container_FP{
+    background-image:
+    linear-gradient(rgba(25, 43, 58, 0.9), rgba(25, 43, 58, 0.9)),
+    url('/images/fpBG.png');
+}
+.banner_container_FF{
+    background-image:
+    linear-gradient(rgba(25, 43, 58, 0.9), rgba(25, 43, 58, 0.9)),
+    url('/images/ffBg.png');
+}
+.banner_container_FM{
+    background-image:
+    linear-gradient(rgba(25, 43, 58, 0.9), rgba(25, 43, 58, 0.9)),
+    url('/images/fmBg.png');
+}
+.banner_container_Tech{
+    background-image:
+    linear-gradient(rgba(25, 43, 58, 0.9), rgba(25, 43, 58, 0.9)),
+    url('/images/TechBg.png');
+}
+.banner_container_DT{
+    background-image:
+    linear-gradient(rgba(25, 43, 58, 0.9), rgba(25, 43, 58, 0.9)),
+    url('/images/dtBg.png');
+}
+.banner_container_RPA{
+    background-image:
+    linear-gradient(rgba(25, 43, 58, 0.9), rgba(25, 43, 58, 0.9)),
+    url('/images/rpaBg.png');
+}
+.banner_container_ERP{
+    background-image:
+    linear-gradient(rgba(25, 43, 58, 0.9), rgba(25, 43, 58, 0.9)),
+    url('/images/erpBgN.png');
+}
+.banner_container_AI{
+    background-image:
+    linear-gradient(rgba(25, 43, 58, 0.9), rgba(25, 43, 58, 0.9)),
+    url('/images/aiBg.png');
+}
+.banner_container_DA2{
+    background-image:
+    linear-gradient(rgba(25, 43, 58, 0.9), rgba(25, 43, 58, 0.9)),
+    url('/images/daBgN.png');   
+}
+.banner_container_adgm1{
+    background-image:
+    linear-gradient(rgba(25, 43, 58, 0.9), rgba(25, 43, 58, 0.9)),
+    url('/images/adgm3.jpg');  
+    background-position: top; 
+}
+.banner_container_adgm2{
+    background-image:
+    linear-gradient(rgba(25, 43, 58, 0.9), rgba(25, 43, 58, 0.9)),
+    url('/images/adgm2c.jpg');   
+}
+.banner_container_BC{
+    background-image:
+    linear-gradient(rgba(25, 43, 58, 0.9), rgba(25, 43, 58, 0.9)),
+    url('/images/bcBg.png');   
+}
+.banner_container_Adv{
+    background-image:
+    linear-gradient(rgba(25, 43, 58, 0.9), rgba(25, 43, 58, 0.9)),
+    url('/images/maBg.png');   
+}
+.banner_container_dmcc1{
+    background-image:
+    linear-gradient(rgba(25, 43, 58, 0.9), rgba(25, 43, 58, 0.9)),
+    url('/images/dmcc_3.jpg');  
+    background-position: center ; 
+}
+.banner_container_dmcc2{
+    background-image:
+    linear-gradient(rgba(25, 43, 58, 0.9), rgba(25, 43, 58, 0.9)),
+    url('/images/dmcc_4.jpg');  
+    background-position: top center; 
+}
+.banner_container_masdar2{
+    background-image:
+    linear-gradient(rgba(25, 43, 58, 0.9), rgba(25, 43, 58, 0.9)),
+    url('/images/masdar_bg3.jpg');  
+    background-position: top center; 
+}
+.banner_container_masdar3{
+    background-image:
+    linear-gradient(rgba(25, 43, 58, 0.9), rgba(25, 43, 58, 0.9)),
+    url('/images/masdar_bg4.jpg');  
+    background-position: top center; 
+}
+
+.MenuBar {
+    width: 100%;
+    background-color: #192B3A;
+}
+.blueBgWrap{
+    width: 100%;
+    background-color: #192B3A;   
+}
+.marginT20{
+    margin-top: 20px;
+}
+.marginBt,.marginBt1{
+    margin-bottom: 80px;
+}
+.marginTp{
+    margin-top: 80px;
+
+}
+.marginTpW{
+    margin-top: 80px;
+
+}
+.marginVG{
+    margin-bottom: 60px;
+}
+.marginVG2{
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+
+.mobonlyform{
+    display: none;
+  }
+  
+@media screen and (max-device-width: 780px) {
+    .marginVG2{
+        margin-top: 30px;
+        margin-bottom:0px;
+    }
+    .mobonlyform{
+        display: block;
+      }
+}
+@media screen and (max-device-width: 480px) {
+    .marginBt{
+        margin-bottom: 40px;
+    }
+    .marginBt1{
+        margin-bottom: 0;
+    }
+    .marginTp{
+        margin-top: 40px;
+       
+    }
+    .marginTpW{
+        margin-top: 0px;
+       
+    }
+    .marginT20{
+    margin-top: 0px;
+}
+.marginVG{
+    margin-bottom: 20px;
+}
+.marginVG2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+    /* .MenuBar{
+        margin-top: -30px;
+    } */
+}
+.banner_container_EXE{
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(100.68deg, rgba(25, 43, 58, 0.39) 28.91%, rgba(24, 44, 60, 0) 74.99%),url('/images/executivesearchbanner.webp');
+    background-size: contain;
+    background-size: 100%;
+    height: 100vh;
+    padding-top: 10%;
+    position: relative;
+    padding-top: 16%;
+}
+.banner_container_EXE .banner_content{
+    padding-top: 300px;
+}
+.banner_container_EXE .banner_tip{
+    background: white;
+    height: 100px;
+    width: 500px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    border-radius: 30px 0px 0px 0px;
+}
+.appointwrappernew{
+    position: absolute;
+    margin: auto;
+    left: 32%;
+    right: 40%;
+    top: 20%;
+}
+.banner_container_EXE .banner_tip img{
+    width: 50px;
+    margin-right: 20px;
+}
+@media only screen and (max-width: 400px) {
+    .banner_container_EXE{
+        background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        linear-gradient(100.68deg, rgba(25, 43, 58, 0.39) 28.91%, rgba(24, 44, 60, 0) 74.99%),url('/images/executivesearchbanner.webp');
+        background-size: cover!important;
+        background-position: 50%;
+        background-size: 100%;
+        height: 100vh;
+        padding-top: 10%;
+        position: relative;
+        padding-top: 70%;
+        top: 0;
+    }
+    .banner_container_EXE .banner_tip{
+        position: relative;
+    }
+}

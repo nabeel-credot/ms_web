@@ -1,0 +1,252 @@
+.onlineBookingService_container {
+    width: 100%;
+    padding: 80px 0px;
+}
+.columns {
+    margin: 30px auto;
+    margin-bottom: 0;
+    flex: 1;
+}
+
+.columns:first-child {
+    margin-right: 10px;
+}
+.onlineBookingService_sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.onlineBookingService_boxnew {
+    height: auto;
+    background-color: #FFF;
+    border-radius: 12px;
+    margin: 10px 0;
+    transition: height 0.2s ease-in-out;
+}
+.privacy_boxnew {
+    height: auto;
+    background-color: #F3F3F3;
+    border-radius: 12px;
+    margin: 10px 0;
+    transition: height 0.2s ease-in-out;
+}
+.onlineBookingService_boxnew_hom {
+    height: auto;
+    background-color: #E4E4E4;
+    border-radius: 12px;
+    margin: 10px 0;
+    transition: height 0.2s ease-in-out;
+}
+.onlineBookingService_box {
+    height: auto;
+    /* margin-bottom: 20px; */
+    margin: 30px 0;
+    transition: height 0.2s ease-in-out;
+}
+.onlineBookingService_box_CFO {
+    width: 416px;
+    height: auto;
+    margin-bottom: 20px;
+    transition: height 0.2s ease-in-out;
+}
+
+.onlineBookingService_boxContent {
+    /* background-color: #D4AE31;
+    border-radius: 15px; */
+    display: flex;
+    cursor: pointer;
+    /* align-items: center; */
+    padding: 0 30px;
+    justify-content: space-between;
+    /* height: 140px; */
+    
+}
+.onlineBookingService_boxContentnew{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    /* padding: 15px 30px; */
+    padding: 25px;
+    justify-content: space-between;
+}
+/* .onlineBookingService_boxContentnew:hover{
+    background: #E4E4E4;
+} */
+
+.onlineBookingService_boxContentnew .data {
+    /* border: 1px solid red; */
+    list-style: 120%;
+    color: #212120;
+    font-style: normal;
+    font-size: 22px;
+    width: 95%;
+    font-weight: 400;
+}
+.onlineBookingService_boxContent .data {
+    /* border: 1px solid red; */
+    list-style: 120%;
+    color: #212120;
+    font-style: normal;
+    font-size: 22px;
+    width: 95%;
+}
+.onlineBookingService_boxContentnew .dataY {
+    /* border: 1px solid red; */
+    list-style: 120%;
+    /* color: #D4AE32; */
+    font-style: normal;
+    font-size: 24px;
+    width: 95%;
+}
+.onlineBookingService_boxContent .dataY {
+    /* border: 1px solid red; */
+    list-style: 120%;
+    color: #D4AE32;
+    font-style: normal;
+    font-size: 24px;
+    width: 95%;
+}
+.arrowWidth{
+    /* margin-top: 10px; */
+    width: 5%;
+    display: flex;
+    align-items: center;
+}
+.onlineBookingService_boxOnHover {
+    /* padding: 20px 15px; */
+    font-size: 16px;
+    line-height: 120%;
+    color: #212120;
+    font-style: normal;
+
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+.my_collapse {
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;
+}
+.childY{
+    /* color: #D4AE32; */
+    padding: 10px 30px 35px 36px;
+    line-height: 150%;
+    font-size: 18px;
+    /* text-align: justify; */
+}
+@media screen and (min-device-width: 768px) and (max-device-width:1200px) {
+    .onlineBookingService_box:last-child{
+        margin-bottom: 0;
+    }
+    .columns {
+        margin: 0;
+    }
+
+}
+@media (max-width:600px ) {
+    .onlineBookingService_boxnew{
+        padding: 20px 10px 20px 20px;
+    }
+    .privacy_boxnew{
+        padding: 20px 10px 20px 20px;
+    }
+     .onlineBookingService_boxnew_hom{
+        padding: 10px;
+    }
+}
+@media screen and (min-device-width: 480px)
+and (max-device-width:768px){
+    .onlineBookingService_container {
+        padding: 30px 20px;
+    }
+    .onlineBooking_detail,
+    .onlineBookingService_boxContent .data,
+    .onlineBookingService_boxContentnew .data,
+    .details20Open400,.details24W300,.details24500SR,.details24500TAS {
+        font-size: 18px;
+    }
+
+    .onlineBookingService_boxContent .data,.onlineBookingService_boxContentnew .data {
+        width: 90%;
+    }
+
+    .arrowWidth{
+        width: 10%;
+     }
+ 
+    .columns {
+        margin: 0;
+    }
+    .onlineBookingService_boxContent{
+        padding: 0;
+    }
+    .onlineBookingService_boxContentnew{
+        padding: 0;
+        align-items: center;
+    }
+    .onlineBookingService_sub {
+        margin-top: 30px;
+    }
+    .onlineBookingService_box_CFO{
+        width: auto;
+    }
+    .onlineBookingService_box:last-child{
+        margin-bottom: 0;
+    }
+    .childY{
+        padding: 10px 0;
+    }
+}
+
+@media screen and (max-device-width: 480px) {
+    .onlineBookingService_container {
+        padding: 30px 20px;
+    }
+    .onlineBookingService_box{
+        margin: 20px 0;
+    }
+    .onlineBooking_detail,
+    .onlineBookingService_boxContent .data, .onlineBookingService_boxContentnew .data,
+    .onlineBookingService_boxContent .dataY, .onlineBookingService_boxContentnew .dataY{
+        font-size: 18px;
+    }
+    .onlineBookingService_boxContent,.onlineBookingService_boxContentnew{
+        padding: 0;
+    }
+.childY{
+    padding: 10px 0;
+    font-size: 16px;
+}
+.onlineBookingService_boxContentnew .data {
+    width: 90%;
+}
+    .onlineBookingService_boxContent .data {
+        width: 90%;
+    }
+    .arrowWidth{
+       width: 10%;
+    }
+
+    .columns {
+        margin: 0;
+    }
+
+    .onlineBookingService_sub {
+        margin-top: 30px;
+    }
+    .onlineBookingService_box_CFO{
+        width: auto;
+    }
+    /* .onlineBookingService_boxContent {
+        height: 120px;
+    } */
+    .onlineBookingService_box:last-child{
+        margin-bottom: 0;
+    }
+    .onlineBookingService_boxOnHover{
+        padding-left:5px ;
+    }
+}

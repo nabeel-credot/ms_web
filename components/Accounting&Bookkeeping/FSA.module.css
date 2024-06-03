@@ -1,0 +1,131 @@
+.MA_section_container {
+  width: 100%;
+  padding: 80px 0px 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.FSA_sectionL,
+.FSA_sectionR {
+  flex: 1;
+}
+.FSA_sectionL {
+  padding-right: 50px;
+}
+.FSA_sectionL ul li {
+  margin-top: 20px;
+  list-style: none;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  transition: 0.3s;
+  display: flex;
+  cursor: pointer;
+}
+.FSA_sectionL ul {
+  margin-top: 15px;
+  margin-left: -40px;
+}
+.FSA_sectionL ul li .key {
+  margin-left: 15px;
+}
+
+.fsa_list_width {
+  width: 90%;
+}
+.fsa_list_width2 {
+  width: 88%;
+}
+.FSA_sectionR {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.FSA_sub_box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 60px;
+}
+.FSA_sub_box_additional {
+  padding: 0px 45px !important;
+}
+.FSA_sub_box .subBox {
+  margin-right: 20px;
+}
+
+.FSA_section_container {
+  width: 100%;
+  padding: 80px 0px 0;
+}
+.FSA_section_container2 {
+  width: 100%;
+  padding: 0px 0px 0;
+}
+@media only screen and (max-width: 1200px) {
+  .FSA_section_container {
+    padding: 80px 20px;
+  }
+  .FSA_section_container {
+    padding: 80px 0 0;
+  }
+}
+
+@media screen and (min-device-width: 480px) and (max-device-width: 768px) {
+  .MA_section_container {
+    padding: 40px 20px 0;
+    display: block;
+  }
+  /* .FSA_section_container {
+    padding: 10px 20px 40px;
+  } */
+  .FSA_sectionL {
+    padding-right: 0px;
+  }
+  .FSA_sectionL ul li {
+    font-size: 16px;
+  }
+  .FSA_sectionR {
+    margin-top: 30px;
+    justify-content: center;
+  }
+  .FSA_sub_box {
+    margin-top: 30px;
+  }
+  .FSA_sub_box div {
+    margin-right: 0px;
+  }
+}
+@media screen and (max-device-width: 480px) {
+
+ 
+    .MA_section_container{
+        padding: 40px 0px 0;
+        display: block;
+    }
+    .FSA_section_container{
+        padding: 40px 20px;
+    }
+    .FSA_section_container2{
+      padding: 20px 20px;
+  }
+    .FSA_sectionL{
+        padding-right: 0px;
+    }
+    .FSA_sectionL ul li{
+        font-size: 16px;
+    }
+    .FSA_sectionR{
+        margin-top: 30px;
+        justify-content: center;
+    }.FSA_sub_box{
+        margin-top: 30px;
+    }
+    .FSA_sub_box .subBox{
+        margin-right: 0px;
+    }
+}
+
+
+

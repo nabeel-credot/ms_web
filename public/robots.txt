@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://ms-ca.com/
+
+# Sitemaps
+Sitemap: https://ms-ca.com/sitemap.xml

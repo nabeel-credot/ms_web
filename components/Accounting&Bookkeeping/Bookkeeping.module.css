@@ -1,0 +1,189 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 130px;
+    padding-bottom: 30px;
+}
+.acountingBanner_left {
+    flex: 1;
+    padding-top: 45px;
+}
+
+.acountingBannerBook_left {
+    flex: 1;
+    padding-top: 45px;
+}
+
+.bookkeepingBanner_right {
+    flex: 1;
+    display: flex;
+    height: 466px;
+    justify-content: flex-end;
+    /* border: 1px solid red; */
+    position: relative;
+}
+.paddingTop80 {
+    padding-top: 80px;
+}
+
+.blueContainer {
+    /* background-color: #192B3A; */
+    /* width: 523px;
+        height: 424px; */
+    transform: rotate(-5.41deg);
+    /* border-radius:  50% 50% 50% 50% / 60% 60% 40% 40%; */
+    position: absolute;
+    top: 5%;
+    left: 15%;
+}
+
+.manImg {
+    position: absolute;
+    left: 20%;
+    bottom: -35px;
+}
+
+.chat1,
+.chat3,
+.chat2 {
+    width: 167px;
+    height: 60px;
+    font-size: 12px;
+    line-height: 100%;
+    font-weight: 300;
+}
+
+.chat1 {
+    background-color: #D4AE31;
+    color: #212120;
+    position: absolute;
+    top: 130px;
+    left: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 15px;
+}
+
+.chat3 {
+    color: #212120;
+    background-color: #D4AE31;
+    position: absolute;
+    top: 280px;
+    left: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 15px;
+}
+
+.chat2 {
+    color: #FFFFFF;
+    background-color: #808080;
+    position: absolute;
+    right: 30px;
+    top: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 20px 17px;
+}
+
+.marL50 {
+    margin-left: 50px;
+}
+
+.bookbanner_details {
+    color: #212120;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-top: 12px;
+}
+
+.bookbanner2_heading {
+    font-size: 30px;
+    line-height: 110%;
+    color: #192B3A;
+    font-weight: 500;
+    width: 95%;
+}
+
+.bookbanner2_headingY {
+    font-size: 24px;
+    line-height: 110%;
+    color: #D4AE31;
+    font-weight: 400;
+    width: 95%;
+}
+.mobOnly {
+    display: none;
+}
+@media only screen and (max-width: 1200px) {
+    .container{
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding: 80px 20px;
+        align-items: center;
+    }
+    .webOnly{
+        display: none;
+    }
+    .mobOnly {
+        display: block;
+    }
+    .bookkeepingBanner_right {
+        display: block;
+        margin-top: 0px;
+        height: auto;
+    }
+ 
+}
+@media screen and (min-device-width: 480px)
+and (max-device-width:768px){
+    .container {
+        padding: 80px 20px 35px;
+    }
+    .acountingBanner_left{
+        order: 2;
+        padding-top: 0;
+    }
+    .webOnly{
+        display: none;
+    }
+    .mobOnly {
+        display: block;
+    }
+    .paddingTop80 {
+        padding-top: 0px;
+    }
+    .bookbanner_details{
+        font-size: 18px;
+    } 
+}
+
+
+@media screen and (max-device-width: 480px) {
+    .container {
+        padding: 80px 0px 35px;
+    }
+    .acountingBanner_left{
+        order: 2;
+        padding-top: 0;
+    }
+    .webOnly{
+        display: none;
+    }
+    .mobOnly {
+        display: block;
+    }
+    .paddingTop80 {
+        padding-top: 0px;
+    }
+    .bookbanner_details{
+        font-size: 18px;
+    }
+}

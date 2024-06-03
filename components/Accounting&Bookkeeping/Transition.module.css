@@ -1,0 +1,220 @@
+.transition_section1_container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 80px 0px;
+}
+
+.transition_section1_L {
+    flex: 1;
+    padding: 80px 0;
+    padding-right: 40px;
+}
+.logoWrap{
+    position: relative;
+    width: 182px;
+    height: 181px;
+}
+.transition_section1_R {
+    background-color: #192B3A;
+    width: 572px;
+    height: 415px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.detail{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #212120;
+    line-height: 120%;
+}
+
+
+.WhatYouGetWithMs_container4 {
+    width: 100%;
+    background-color: #FCFCFC;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 80px 0px 0px;
+}
+
+.WhatYouGetWithMs_left4 {
+    background-color: #192B3A;
+    width: 523px;
+    height: 221px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.WhatYouGetWithMs_left4 .heading{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 110%;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+.WhatYouGetWithMs_right6 {
+    box-shadow: 4px 4px 4px 4px rgba(217, 217, 217, 0.58);
+    background-color: #FCFCFC;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 1272px;
+    height: 250px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    margin-top: 130px;
+    margin-left: -90px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+
+.WhatYouGetWithMs_box3 {
+    width: 50%;
+    display: flex;
+}
+.yellowBgImg {
+    background-color: #D4AE31;
+    width: 100px;
+    height: 80px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.whatYouGetWithMsDetail3 {
+    color: #212120;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 120%;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.mobOnly,.expertMobWrap{
+    display: none;
+}
+.imgBox{
+    width: 30%;
+  }
+  .contentBox{
+      width: 70%;
+  }
+
+  @media screen and (min-device-width: 480px)
+and (max-device-width:768px){
+    .transition_section1_container {
+        padding: 0px 20px;
+        justify-content: center;
+    }
+    .transition_section1_L{
+        padding: 0 0 30px;
+    }
+    .transition_section1_R{
+        width: auto;
+        height: 351px;
+        margin-bottom: 30px;
+    }
+    .webOnly,.WhatYouGetWithMs_left4,.WhatYouGetWithMs_right6{
+        display: none;
+    }
+    .mobOnly{
+        display: block;
+    }
+.spclWidth{
+        padding: 0 32px;
+    }
+
+    .WhatYouGetWithMs_container4{
+        padding: 40px 20px;
+    }
+    .whatYouGetWithMsDetail3{
+        font-size: 18px;
+        margin-top: 0;
+        padding: 0;
+        font-family: 400;
+        margin-left: 0;
+    }
+    .expertMobWrap{
+        display: block;
+    }
+    .expertMobWrap h3{
+        font-size: 24px;
+        text-align: center;
+        font-weight: 600;
+        line-height: 120%;
+    }
+ 
+    .displayFlex{
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;   
+    }
+ 
+}
+@media screen and (max-device-width: 480px)  {
+    .logoWrap{
+        position: relative;
+        width: 126px;
+        height: 125px;
+    }
+    
+    .transition_section1_container {
+        padding: 20px 0px;
+        justify-content: center;
+    }
+    .transition_section1_L{
+        padding: 0 0 30px;
+    }
+    .transition_section1_R{
+        width: auto;
+        height: 351px;
+        margin-bottom: 30px;
+    }
+    .webOnly,.WhatYouGetWithMs_left4,.WhatYouGetWithMs_right6{
+        display: none;
+    }
+    .mobOnly{
+        display: block;
+    }
+.spclWidth{
+        padding: 0 32px;
+    }
+
+    .WhatYouGetWithMs_container4{
+        padding: 40px 0px;
+    }
+    .whatYouGetWithMsDetail3{
+        font-size: 18px;
+        margin-top: 0;
+        padding: 0;
+        font-family: 400;
+        margin-left: 15px;
+    }
+    .expertMobWrap{
+        display: block;
+    }
+    .expertMobWrap h3{
+        font-size: 24px;
+        text-align: center;
+        font-weight: 600;
+        line-height: 120%;
+    }
+ 
+    .displayFlex{
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;   
+    }
+
+}

@@ -1,0 +1,191 @@
+.container{
+  background-color: #FFFFFF;
+  color: #212120;
+}
+.navbar{
+  width: 100%;
+}
+
+.banner_container{
+  /* width: 100%; */
+  /* min-height: 130vh; */
+  min-height: 110vh;
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-image: url('../public/images/bg1.jpg'); */
+  background-image:
+  linear-gradient( rgba(25,43,58, 0.95), rgba(25,43,58, 0.95)),
+  url('/images/bg1.jpg');
+  /* background-position: right; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  }
+  .sliderContainer{
+    width: 100%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    background-color: #192B3A;
+  }
+ 
+  .bannerTwo_container{
+    width: 100%;
+    background-color: #192B3A;
+  }
+  .service_container{
+    width: 100%;
+    background-color: #192B3A;
+  }
+  .whyMs_container{
+    width: 100%;
+    /* background-color: #F5F5F5; */
+    /* background-color: rgba(212, 174, 49, 0.17); */
+  }
+  .taxConsultant_container{
+    width: 100%;
+    /* background-color: #F5F5F5; */
+  }
+  .meetYourteam_container{
+    width: 100%;
+    background-color: #F5F5F5
+  }
+  .haveAnyQue_container{
+    width: 100%;
+     background-color: #192B3A;
+     padding: 60px 0px;
+     border-radius: 0px 25px;
+     margin: 0px 0 80px;
+    /* background-color: #FFFFFF; */
+  }
+  .mscontainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #F5F5F5;
+    /* height: 90vh; */
+    /* padding-top: 100px;
+    padding-bottom: 50px; */
+  }
+  .award_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 80px; */
+    margin-bottom: 80px;
+    background:linear-gradient(to bottom, #D4AE31 60%, #D4AE31 50%, #fff 50%, #fff 100%);
+  }
+  .award_container_US{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+    background:linear-gradient(to bottom, #D4AE31 60%, #D4AE31 50%, #fff 50%, #fff 100%);
+  }
+  .be_container{
+    margin-bottom: 100px;
+    background-color: #D4AE32;
+    /* background-color: #F5F5F5; */
+  }
+  .ClientsContainer{
+    background-color: #F5F5F5;
+    padding: 80px 0;
+  }
+.lets_container{
+    background-color: #192B3A;;
+}
+.footer{
+  /* background-color: #192B3A; */
+  background: #002A3A;
+  /* border-top-right-radius: 100px; */
+}
+  @media screen and (min-device-width: 667px)
+  and (max-device-width: 1024px){
+    .banner_container{
+      /* width: 100%; */
+      min-height: auto;
+      height: 700px;
+      padding-top: 100px;
+    }
+  }
+  @media screen and (min-device-width: 480px)
+and (max-device-width:667px){
+
+  .banner_container{
+    /* width: 100%; */
+    min-height: auto;
+    height: 700px;
+    padding-top: 100px;
+  }
+  .footer{
+    border-top-right-radius: 0;
+  }
+  .haveAnyQue_container{
+    padding: 30px 0;
+    margin: 0px 0 0;
+  }
+}
+
+  @media screen and (max-device-width: 480px)
+ {
+    .banner_container{
+      min-height: auto;
+    }
+    .mscontainer{
+      margin-top: 0;
+    }
+    .award_container{
+margin: 30px 0;
+    }
+    .be_container{
+      margin-bottom: 30px;
+    }
+    .award_container,.award_container_US{
+      display: block;     
+    }
+    .footer{
+      border-top-right-radius: 0;
+    }
+    .mscontainer{
+      background-color: #FFFFFF;
+      display: block;
+    }
+    .haveAnyQue_container{
+      padding: 30px 0;
+      margin: 40px 0;
+    }
+    .ClientsContainer{
+      padding: 40px 0;
+    }
+    .audit_container{
+      padding-bottom: 30px;
+    }
+  }
+
+  @media screen and (max-device-width: 640px)
+  and (orientation: landscape) {
+    .banner_container{
+      min-height: auto;
+    }
+    .mscontainer{
+      margin-top: 0;
+    }
+    .award_container{
+margin: 30px 0;
+    }
+    .be_container{
+      margin-bottom: 30px;
+    }
+    .footer{
+      border-top-right-radius: 0;
+    }
+    .audit_container{
+      padding-bottom: 30px;
+    }
+  }

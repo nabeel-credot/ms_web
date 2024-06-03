@@ -1,0 +1,299 @@
+.menuBar_container {
+    /* width: 100%;
+    background-color: #192B3A; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 0;
+}
+.menuBar_container .menu {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+   
+    padding: 10px 0;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menuBar_container .active{
+    flex: 1;
+    text-align: center;
+    padding: 10px 0;
+    color: #D4AE31;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.menuBar_container .menu:hover{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    color: #D4AE31;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.active span {
+    content: url("/images/LarrowY.svg");
+    width: 9px;
+    height: 15px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    top: 0px;
+    right: 10px;
+}
+.menu span {
+    display: none;
+}
+
+.menu:hover span {
+    display: block;
+    content: url("/images/LarrowY.svg");
+    width: 9px;
+    height: 15px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    /* transition: 0.5s; */
+    top: 8px;
+    right: -20px;
+}
+
+.menuBar_container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px 0;
+}
+
+.menuBar_container2 .menu {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+    /* margin-bottom: 15px; */
+}
+
+.menuBar_container2 .active{
+    width: 300px;
+    text-align: center;
+    padding: 10px 0;
+    color: #D4AE31;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.menuBar_container .menu:hover ,
+.menuBar_container2 .menu:hover {
+    display: flex;
+    justify-content: center;
+    /* flex: 1; */
+    padding: 10px 0;
+    color: #D4AE31;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.menuBar_container3,.menuBar_container4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px 0;
+}
+.menuBar_container3 .menu {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    /* border-left: 3px solid #FCFCFC; */
+    padding: 10px 0;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+    /* margin-bottom: 5px; */
+}
+.menuBar_container4 .menu {
+    width: 41%;   
+    display: flex;
+    justify-content: center;
+    /* border-left: 3px solid #FCFCFC; */
+    padding: 10px 0;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.menuBar_container3 .active{
+    width: 400px;
+    /* border-left: 3px solid #FCFCFC; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    color: #D4AE31;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.menuBar_container4 .active{
+    width: 41%;
+    /* border-left: 3px solid #FCFCFC; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    color: #D4AE31;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.menuBar_container3 .menu:hover{
+    display: flex;
+    justify-content: center;
+    /* flex: 1; */
+    padding: 10px 0;
+    color: #D4AE31;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.menuBar_container4 .menu:hover{
+    display: flex;
+    justify-content: center;
+    /* flex: 1; */
+    padding: 10px 0;
+    color: #D4AE31;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+@media screen and (min-device-width: 800px) and (max-device-width: 1400px) {
+  .menuBar_container3 .menu,
+  .menuBar_container3 .active{
+        width: 33%;
+    }
+    .menuBar_container2 .menu,
+    .menuBar_container2 .active{
+          width: 23%;
+      }
+   
+}
+@media screen and (max-device-width:1100px){
+    .menuBar_container .menu,.menuBar_container .active,
+    .menuBar_container .menu:hover,
+     .menuBar_container2 .menu,.menuBar_container2 .active,
+    .menuBar_container2 .menu:hover,
+     .menuBar_container3 .menu,.menuBar_container3 .active,
+     .menuBar_container3 .menu:hover,   .menuBar_container4 .menu,.menuBar_container4 .active,
+     .menuBar_container4 .menu:hover{
+         font-size: 14px;
+     }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width:1024px) {
+    .menuBar_container2 .menu,
+    .menuBar_container2 .active{
+          width: 22%;
+      }
+    .menuBar_container3 .menu,
+    .menuBar_container3 .active{
+          width: 25%;
+      }
+    .menuBar_container .menu,.menuBar_container .active,
+    .menuBar_container .menu:hover,
+     .menuBar_container2 .menu,.menuBar_container2 .active,
+    .menuBar_container2 .menu:hover,
+     .menuBar_container3 .menu,.menuBar_container3 .active,
+     .menuBar_container3 .menu:hover,  .menuBar_container4 .menu,.menuBar_container4 .active,
+     .menuBar_container4 .menu:hover{
+         font-size: 14px;
+     }
+     .active span {
+        right: 2px;
+        top: 3px;
+     }
+     .menuBar_container4 .active span {
+        right: 2px;
+        top: 0px;
+     }
+     .menu:hover span{
+        right: -10px;
+        top:5px;
+     }
+}
+
+@media screen and  (max-device-width:768px) {
+    .menuBar_container,.menuBar_container2,.menuBar_container3,.menuBar_container4{
+        display: block;
+    }
+    .menuBar_container4 .menu{
+        width: auto;
+    }
+    .webOnly{
+        display: none;
+    }
+    .menuBar_container .menu,.menuBar_container .active,
+   .menuBar_container .menu:hover,
+    .menuBar_container2 .menu,.menuBar_container2 .active,
+   .menuBar_container2 .menu:hover,
+    .menuBar_container3 .menu,.menuBar_container3 .active,
+    .menuBar_container3 .menu:hover,.menuBar_container4 .menu,.menuBar_container4 .active,
+    .menuBar_container4 .menu:hover{
+        font-size: 16px;
+    }
+    .menuBar_container .menu,.menuBar_container .active{
+        border-bottom: 1px solid #FFFFFF;
+    }
+    .menuBar_container2 .menu,.menuBar_container3 .menu,.menuBar_container4 .menu,
+    .menuBar_container2 .active,.menuBar_container3 .active,.menuBar_container4 .active{
+        width: auto;
+        border-bottom: 1px solid #FFFFFF;
+    }
+    .menuBar_container .menu:last-child,
+    .menuBar_container2 .menu:last-child,
+    .menuBar_container3 .menu:last-child,
+    .menuBar_container .active:last-child,
+    .menuBar_container2 .active:last-child,
+    .menuBar_container3 .active:last-child,
+    .menuBar_container4 .menu:last-child,
+    .menuBar_container4 .active:last-child{
+        border: none;
+    }
+    .active span {
+        right: 10px;
+        top: 0px;
+     }
+     .menu:hover span{
+        right: -10px;
+        top:5px;
+     }
+    
+}
+
+
+@media screen and  (max-device-width:480px) {
+    .width{
+        width: 87%;
+      }
+}

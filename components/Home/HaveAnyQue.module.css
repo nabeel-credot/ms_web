@@ -1,0 +1,349 @@
+
+.haveAnyQue_container {
+    position: relative;
+    padding: 10px 0 30px;
+  }
+  .haveAnyQue_heading h3{
+    margin: 0;
+  font-size: 36px;
+  line-height: 110%;
+  font-style: normal;
+  line-height: 110%;
+  font-weight: 500;
+  color: #FCFCFC;
+  }
+
+  .haveAnyQue_para{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+  }
+  
+  .qMark,
+  .qMark3 {
+    background-color: #D4AE31;
+    height: 111px;
+    width: 111px;
+    padding: 10px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+  }
+  
+  .qMark {
+    position: absolute;
+    top: 20%;
+    left: 0%;
+  }
+   .qMarknew,
+  .qMarknew3 {
+    height: 111px;
+    width: 111px;
+    padding: 10px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+  }
+  .qMarknew {
+    position: absolute;
+    top: 20%;
+    left: 0%;
+  }
+  
+  .qMark1 {
+    position: absolute;
+    top: 65%;
+    left: 5%;
+  }
+  
+  .qMark2 {
+    position: absolute;
+    top: 73%;
+    left: 7%;
+  }
+  
+  .qMark3 {
+    position: absolute;
+    bottom: 20%;
+    right: 0%;
+  }
+   .qMarknew3 {
+    position: absolute;
+    bottom: 20%;
+    right: 0%;
+  }
+  
+  .qMark4 {
+    position: absolute;
+    top: 13%;
+    right: 7%;
+  }
+  
+  .qMark5 {
+    position: absolute;
+    top: 20%;
+    right: 2%;
+  }
+  
+  .qMark6,.qMark7{
+    display: none;
+  }
+  
+  .q1 {
+    position: absolute;
+    top: 20%;
+    left: 0;
+  }
+  
+  .r1 {
+    position: absolute;
+    top: 17%;
+    left: 8%;
+  }
+  
+  .line1 {
+    position: absolute;
+    top: 17%;
+    left: 8.5%;
+  }
+  
+  .r2 {
+    position: absolute;
+    top: 33%;
+    left: 12%;
+  }
+  
+  .line2 {
+    position: absolute;
+    top: 33%;
+    left: 12.5%;
+  }
+  
+  .r3 {
+    position: absolute;
+    top: 60%;
+    left: 1%;
+  }
+  
+  .line3 {
+    position: absolute;
+    top: 60%;
+    left: 2%;
+  }
+  
+  .q2 {
+    position: absolute;
+    top: 63%;
+    left: 8%;
+  }
+  
+  .q3 {
+    position: absolute;
+    right: 2%;
+    top: 30%;
+  }
+  .haveAnyQue_detailnew {
+    font-size: 16px;
+    line-height: 125%;
+    font-family: 'Poppins', sans-serif;
+    color: #FCFCFC;
+    margin: 30px 250px;
+  
+  }
+  
+  .haveAnyQue_detail {
+    font-size: 20px;
+    line-height: 125%;
+    font-family: 'Open Sans', sans-serif;
+    color: #FCFCFC;
+    opacity: .9;
+    text-align: center;
+    margin: 30px 250px;
+  
+  }
+
+  
+  .haveAnyQue_detail div:first-child {
+    margin-bottom: 30px;
+  }
+  
+  .haveAnyQue_detail div:last-child {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .webOnly3{
+    display: flex;
+    justify-content: center;
+  }
+  
+.mobOnly3{
+    display: none;
+  }
+  
+.logo_is_animetion {
+    display: inline-block;
+    animation: wave-text 1s ease-in-out infinite;
+  }
+  
+  
+  .logo_is_animetion {
+    animation-delay: 0.0s;
+  }
+  
+  @keyframes wave-text {
+    00% {
+      transform: translateY(0em);
+    }
+  
+    60% {
+      transform: translateY(-0.6em);
+    }
+  
+    100% {
+      transform: translateY(0em);
+    }
+  }
+  
+  @media screen and (min-device-width: 768px)
+  and (max-device-width:1021px){
+    .haveAnyQue_container{
+        padding: 30px 10px;
+        padding-bottom:50px;
+      }
+      .haveAnyQue_detail{
+        margin: 20px 5px;
+      text-align: center;
+     
+      }
+      .qMark,
+      .qMark3,.qMark2{
+        display: none;
+      }
+      .qMarknew,
+      .qMarknew3{
+        display: none;
+      }
+      .qMark5 {
+        top:14%;
+      }
+  }
+  
+@media screen and (min-device-width: 480px)
+and (max-device-width:768px){
+    .haveAnyQue_container{
+        padding: 30px 10px;
+        padding-bottom:50px;
+      }
+      .haveAnyQue_heading h3{
+        font-size: 24px;
+        text-align: center;
+        margin-top: 20px;
+    }
+      .qMark,
+      .qMark3,.qMark2{
+        display: none;
+      }
+      .qMarknew,
+      .qMarknew3{
+        display: none;
+      }
+      .haveAnyQue_detail{
+        margin: 20px 5px;
+      text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 125%;
+      }
+      .qMark4 {
+        position: absolute;
+        top: 5%;
+        right: 20%;
+      }
+      .qMark5{
+        display: none;
+      }
+      .qMark6{
+        display: block;
+        position: absolute;
+        top: 10%;
+        right: 5%;
+      }
+      .qMark1 {
+        position: absolute;
+      top: 73%;
+        left: 3%;
+      }
+      .qMark7{
+        display: block;
+        position: absolute;
+        top: 78%;
+          left: 8%;
+      }
+      .mobOnly3{
+        display:flex;
+        justify-content: center;
+      }
+      .webOnly3{
+    display: none;
+      }
+}
+/*For Mobile Portrait view*/
+
+@media screen and (max-device-width: 480px) {
+    .haveAnyQue_container{
+        padding: 30px 0px;
+        padding-bottom:50px;
+      }
+      .haveAnyQue_heading h3{
+        font-size: 24px;
+        text-align: center;
+        margin-top: 20px;
+    }
+      .qMark,
+      .qMark3,.qMark2{
+        display: none;
+      }
+      .qMarknew,
+      .qMarknew3{
+        display: none;
+      }
+      .haveAnyQue_detail{
+        margin: 20px 5px;
+      text-align: center;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 125%;
+      }
+      .qMark4 {
+        position: absolute;
+        top: 0%;
+        right: 15%;
+      }
+      .qMark5{
+        display: none;
+      }
+      .qMark6{
+        display: block;
+        position: absolute;
+        top: 10%;
+        right: 0%;
+      }
+      .qMark1 {
+        position: absolute;
+      top: 73%;
+        left: 3%;
+      }
+      .qMark7{
+        display: block;
+        position: absolute;
+        top: 78%;
+          left: 8%;
+      }
+      .mobOnly3{
+        display:flex;
+        justify-content: center;
+      }
+      .webOnly3{
+    display: none;
+      }
+}
+  

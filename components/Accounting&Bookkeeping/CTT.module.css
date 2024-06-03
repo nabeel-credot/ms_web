@@ -1,0 +1,296 @@
+.acountingBanner_container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 80px 0px;
+}
+
+.acountingBanner_left {
+    flex: 1;
+display: flex;
+flex-direction: column;
+justify-content:center ;
+}
+
+.WhatYouGetWithMs_container3 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 80px 0px;
+}
+.WhatYouGetWithMs_left2 {
+    background-color: #192B3A;
+    width: 416px;
+    height: 271px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.WhatYouGetWithMs_left2 .heading2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 110%;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding-top: 15%;
+    padding-left: 30px;
+}
+.WhatYouGetWithMs_right4 {
+    box-shadow: 4px 4px 4px 4px rgba(217, 217, 217, 0.58);
+    background-color: #FCFCFC;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 1272px;
+    height: 250px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    margin-top: 130px;
+    margin-left: -84px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+.WhatYouGetWithMs_right5 {
+    box-shadow: 4px 4px 4px 4px rgba(217, 217, 217, 0.58);
+    background-color: #FCFCFC;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 269px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    margin-top: 130px;
+    margin-left: -89px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+.WhatYouGetWithMs_right5ctt {
+    box-shadow: 4px 4px 4px 4px rgba(217, 217, 217, 0.58);
+    background-color: #FCFCFC;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 269px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    margin-top: 130px;
+    margin-left: -150px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+.WhatYouGetWithMs_box5 {
+    width: 25%;
+    display: flex;
+}
+.WhatYouGetWithMs_box6 {
+    width: 33%;
+    display: flex;
+}
+.WhatYouGetWithMs_box6_sr {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+
+.yellowBgImg {
+    background-color: #D4AE31;
+    width: 100px;
+    height: 80px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.whatYouGetWithMsDetail5ctt {
+    text-align: center;
+    color: #212120;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 120%;
+   margin: auto;
+}
+.whatYouGetWithMsDetail5 {
+    text-align: center;
+    color: #212120;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 120%;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 70%;
+}
+.whatYouGetWithMsDetail7 {
+    color: #212120;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 120%;
+margin: auto;
+    text-align: center;
+}
+.expertMobWrap{
+    display: none;
+}
+.imgBox{
+    width: 30%;
+  }
+  .contentBox{
+      width: 70%;
+  }
+  
+@media only screen and (max-width: 1200px) {
+    .acountingBanner_container{
+        padding: 80px 20px;
+    }
+    .acountingBanner_container
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (min-device-width: 768px)
+and (max-device-width:1024px){
+    .WhatYouGetWithMs_left2,.WhatYouGetWithMs_right4 ,.WhatYouGetWithMs_right5,.WhatYouGetWithMs_right5ctt{
+        display: none;
+    }
+    .WhatYouGetWithMs_container3{
+        padding: 40px 20px;
+        background-color: #FFFFFF;
+    }
+    .whatYouGetWithMsDetail5{
+        font-size: 18px;
+        margin-top: 0;
+        padding: 0;
+        font-family: 400;
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+    .whatYouGetWithMsDetail7 {
+        font-size: 17px;
+        margin-top: 0px;
+        margin-left: 10px;
+        text-align: unset;
+    }
+    .expertMobWrap{
+        display: block;
+    }
+    .expertMobWrap h3{
+        font-size: 24px;
+        text-align: center;
+        font-weight: 600;
+        line-height: 120%;
+    }
+    
+    .displayFlex{
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (min-device-width: 480px)
+and (max-device-width:768px){
+    .acountingBanner_container{
+        padding: 0 20px 40px;
+        display: block;
+    }
+
+    .acountingBanner_containerBook {
+    padding: 20px;
+    flex-direction: column;
+}
+.acountingBanner_left {
+    order: 2;
+    padding-top: 0;
+}
+.WhatYouGetWithMs_left2,.WhatYouGetWithMs_right4 ,.WhatYouGetWithMs_right5,.WhatYouGetWithMs_right5ctt{
+    display: none;
+}
+.WhatYouGetWithMs_container3{
+    padding: 40px 20px;
+    background-color: #FFFFFF;
+}
+.whatYouGetWithMsDetail5{
+    font-size: 18px;
+    margin-top: 0;
+    padding: 0;
+    font-family: 400;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+.whatYouGetWithMsDetail7 {
+    font-size: 17px;
+    margin-top: 0px;
+    margin-left: 10px;
+    text-align: unset;
+}
+.expertMobWrap{
+    display: block;
+}
+.expertMobWrap h3{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.displayFlex{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+}
+@media screen and (max-device-width: 480px){
+    .acountingBanner_container{
+        padding: 30px 0px 40px;
+        display: block;
+    }
+
+    .acountingBanner_containerBook {
+    padding: 20px;
+    flex-direction: column;
+}
+.acountingBanner_left {
+    order: 2;
+    padding-top: 0;
+}
+.WhatYouGetWithMs_left2,.WhatYouGetWithMs_right4 ,.WhatYouGetWithMs_right5,.WhatYouGetWithMs_right5ctt{
+    display: none;
+}
+.WhatYouGetWithMs_container3{
+    padding: 40px 20px;
+    background-color: #FFFFFF;
+}
+.whatYouGetWithMsDetail5{
+    font-size: 18px;
+    margin-top: 0;
+    padding: 0;
+    font-family: 400;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+.whatYouGetWithMsDetail7 {
+    font-size: 17px;
+    margin-top: 0px;
+    margin-left: 10px;
+    text-align: unset;
+}
+.expertMobWrap{
+    display: block;
+}
+.expertMobWrap h3{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.displayFlex{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+}

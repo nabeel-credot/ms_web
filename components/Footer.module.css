@@ -1,0 +1,373 @@
+
+
+.main{
+    color: #FFFFFF;
+    width: 100%;
+    padding: 80px 0px 10px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.left_sub{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.coloumn{
+    flex: 1;
+}
+.box{
+    margin-bottom: 35px;
+}
+.title{
+    font-size: 18px;
+font-weight: 700;
+line-height: 120%;
+  cursor: pointer;
+  width: max-content;
+}
+.title:hover{
+    color: #D4AE31;
+}
+/* .Upper{
+    height: 30px;
+} */
+.box ul{
+    margin: 20px 0 ;
+    padding: 0;
+    
+}
+.box .commonList  li,.box .contactList  li{
+    display: flex;
+    align-self: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+    list-style: none;
+    margin-bottom: 12px;
+    transition: .3s;
+ 
+}
+.box .contactList  li{
+    margin-bottom: 14px;
+}
+/* .iconA{
+} */
+.add{
+    margin-left: 20px;
+}
+.box .commonList li:hover,.linksH:Hover{
+    color: #D4AE31;
+    cursor: pointer;
+}
+.colorY:hover{
+    color: #D4AE31;
+}
+.linksH{
+    margin-bottom: 10px;
+}
+
+.social{
+display: flex;
+align-items: center;
+}
+.icon{
+    margin-right: 18px;
+    padding: 2px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #FCFCFC;
+    border-radius: 5px;
+    display: flex;
+align-items: center; 
+justify-content: center; 
+transition: .3s ease-in-out;
+cursor: pointer;
+}
+.icon:hover{
+    background-color: #D4AE31;
+    border: none;
+}
+
+.line{
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+    border: .1px solid  rgba(252, 252, 252, 0.3);
+    /* margin-top: 60px;    */
+}
+.copy{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+.border{
+    border:2px solid #D4AE31;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 15px;
+}
+.mobContainer,.mobOnly{
+    display: none;
+}
+.width{
+width: 80%;
+}
+.spclClm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.utube{
+    position: relative;
+    aspect-ratio: 1/1;
+    width: 30px;
+}
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1024px){
+.box{
+    width: auto;
+}
+.coloumn{
+  flex: 50%;
+}
+.Upper{
+    height: 45px;
+}
+}
+@media screen and (min-device-width: 480px)
+and (max-device-width:765px){
+    .main{
+        border-top-right-radius: 0;
+        padding: 40px 0px;
+    }
+    .container{
+        display: none;
+    }
+    .box{
+       width: 100%;
+       border: 2px solid #FCFCFC;
+       border-top-right-radius: 20px;
+       border-bottom-left-radius: 20px;
+       padding: 15px;
+       margin-bottom: 15px;
+    }
+    .list{
+        padding-bottom: 30px;
+    }
+    .list li{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .list ul li:hover{
+        color: #D4AE31;
+    }
+   
+    .mobContainer{
+       display: block;
+    }
+    
+.btn {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.my_collapse {
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;
+}
+.title{
+    height: auto;
+}
+.linksH{
+    padding: 5px;
+    margin-bottom: 0px;
+}
+.contact{
+    text-align: center;
+    font-size:20px;
+    font-weight: 500;
+}
+
+.box .contactList  li{
+    font-size: 18px;
+
+}
+
+.social{
+    justify-content: space-between;
+}
+.icon{
+    width: 60px;
+    height: 60px;
+}
+.line{
+    margin-top: 20px;
+}
+.mobOnly{
+    display: block;
+}
+.addBox ul {
+    display: flex;
+    justify-content: center;
+}
+}
+@media screen and (max-device-width: 480px) {
+    .main{
+        border-top-right-radius: 0;
+        padding: 40px 0px;
+    }
+    .container{
+        display: none;
+    }
+    .box{
+       width: 100%;
+       border: 2px solid #FCFCFC;
+       border-top-right-radius: 20px;
+       border-bottom-left-radius: 20px;
+       padding: 15px;
+       margin-bottom: 15px;
+    }
+    .list{
+        padding-bottom: 30px;
+    }
+    .list li{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .list ul li:hover{
+        color: #D4AE31;
+    }
+   
+    .mobContainer{
+       display: block;
+    }
+    
+.btn {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.my_collapse {
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;
+}
+.title{
+    height: auto;
+}
+.linksH{
+    padding: 5px;
+    margin-bottom: 0px;
+}
+.contact{
+    text-align: center;
+    font-size:20px;
+    font-weight: 500;
+}
+
+.box .contactList  li{
+    font-size: 18px;
+
+}
+
+.social{
+    justify-content: space-between;
+}
+.icon{
+    width: 60px;
+    height: 60px;
+}
+.line{
+    margin-top: 20px;
+}
+.mobOnly{
+    display: block;
+}
+}
+
+@media screen and (max-device-width: 640px)
+and (orientation: landscape) {
+    .main{
+        border-top-right-radius: 0;
+        padding: 40px 30px;
+    }
+    .container{
+        display: none;
+    }
+    .box{
+       width: 100%;
+       border: 2px solid #FCFCFC;
+       border-top-right-radius: 20px;
+       border-bottom-left-radius: 20px;
+       padding: 15px;
+       margin-bottom: 15px;
+    }
+    .list{
+        padding-bottom: 30px;
+    }
+    .list li{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .list ul li:hover{
+        color: #D4AE31;
+    }
+   
+    .mobContainer{
+       display: block;
+    }
+    
+.btn {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.my_collapse {
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;
+}
+.title{
+    height: auto;
+}
+.linksH{
+    padding: 5px;
+    margin-bottom: 0px;
+}
+.contact{
+    text-align: center;
+    font-size:20px;
+    font-weight: 500;
+}
+
+.box .contactList  li{
+    font-size: 18px;
+
+}
+.social{
+    justify-content: space-between;
+}
+.icon{
+    width: 60px;
+    height: 60px;
+}
+.line{
+    margin-top: 20px;
+}
+.mobOnly{
+    display: block;
+}
+}

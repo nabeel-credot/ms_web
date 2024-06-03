@@ -1,0 +1,169 @@
+.container{
+  padding: 80px 0;
+  color: #212120;
+}
+.title{
+  font-size: 36px;
+  font-weight: 500;
+line-height: 120%;
+}
+.title2{
+  font-size: 36px;
+  font-weight: 400;
+line-height: 120%;
+}
+.addressWrapper{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.box{
+  background-color: #F0F0F0;
+  border-radius: 20px;
+  padding:30px;
+  display: flex;
+  align-self: center;
+  width: 416px;
+ height: 135px;
+ margin-bottom: 35px;
+}
+.address{
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #192B3A;
+  display: flex;
+  align-self: center;
+}
+.formSection{
+  margin-top: 50px;
+}
+.formContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.formWrapper{
+  width: 70%;
+  padding-right: 60px;
+}
+.subscribeWrapper{
+  width: 30%;
+}
+
+.form2{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.inputB{
+  width:48%;
+}
+.form2 input{
+    padding: 20px 14px;
+    font-size: 18px;
+    color: #212120;
+    border-radius: 10px;
+    border: 1px solid #CCCCCC;
+    margin-bottom: 15px;
+    background-color: #F0F0F0;
+    width: 100%;
+}
+
+.form2 textarea{
+  padding: 20px 14px;
+  font-size: 18px;
+  color: #212120;
+  border-radius: 10px;
+  border: 1px solid #CCCCCC;
+  margin-bottom: 15px;
+  background-color: #F0F0F0;
+  width: 100%;
+}
+.mobOnly{
+  display: none;
+}
+
+.whyUs_wrapper{
+  display: flex;
+  padding: 80px 0px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.whyUs_wrapperL,
+.whyUs_wrapperR {
+  flex: 1;
+}
+
+.whyUs_detailWidth {
+  width: 87%;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #212120;
+}
+.whyUs_detailWidth span{
+  color: #FFFFFF;
+}
+
+.whyUs_wrapperR {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+@media screen and (min-device-width: 480px)
+and (max-device-width:768px){
+  .container{
+    padding: 40px 0;
+  }
+  .formContainer{
+    display: block;
+  }
+  .formWrapper{
+    width: 100%;
+    padding-right: 0;
+  }
+  .subscribeWrapper{
+    width: 100%;
+    margin-top: 30px;
+  }
+  .whyUs_wrapper{
+    padding: 40px 0;
+    display: block;
+  }
+  .whyUs_wrapperR{
+    margin-top: 30px;
+  }
+  
+}
+
+@media screen and (max-device-width: 480px){
+  .container{
+    padding: 40px 0;
+  }
+  .formContainer{
+    display: block;
+  }
+  .formWrapper{
+    width: 100%;
+    padding-right: 0;
+  }
+  .subscribeWrapper{
+    width: 100%;
+    margin-top: 30px;
+  }
+  .whyUs_wrapper{
+    padding: 40px 0;
+    display: block;
+  }
+  .whyUs_wrapperR{
+    margin-top: 30px;
+  }
+  
+}

@@ -1,0 +1,342 @@
+.TAS_Lets_talk_container2 {
+    box-shadow: 10px 7px 20px 6px #D1D9E6;
+   border-radius: 30px;
+    padding: 40px 30px;
+    background-color: #192B3A;
+    color: #FCFCFC;
+    /* height: 324px; */
+    display: flex;
+    /* margin: 80px 0 0; */
+}
+
+.TAS_Lets_talk_container2L{
+    flex: 1.1;
+    
+}
+.TAS_Lets_talk_container2RMain {
+    flex: .9;
+}
+
+.TAS_Lets_talk_container2L {
+    border-right: 1px solid #FCFCFC;
+    padding-right: 10px;
+}
+
+.downloadbtn{
+    /* position: absolute;
+    inset: 0; */
+    background-color: rgb(213, 175, 50);;
+        border: 2px solid #192B3A;
+        width: 278px;
+        height: 60px;
+        border-radius: 0px 25px;
+        font-size: 20px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.5s;
+        cursor: pointer;
+        color: rgb(25, 43, 58);
+        }
+        .call{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-right: 8px;
+         
+          }
+          .arrow{
+            padding-left: 7px;
+            transition: 0.5s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           
+          }
+          .downloadbtn:hover .arrow{
+            padding-left: 20px;
+           }
+      
+
+/* .downloadbtn:hover{
+    transition: all 0.5s;
+  
+} */
+.TAS_Lets_talk_container2RMain {
+    padding-left: 35px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.TAS_Lets_talk_container2R {
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.TAS_Lets_talk_container2R_img {
+    /* background-color: #D4AE31;
+    width: 191px;
+    height: 194px;
+    position: relative;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px; */
+    position: relative;
+    width: 186px;
+    height: 186px;
+  
+}
+
+
+
+.TAS_Lets_talk_container2R_content {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tasDF {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+     color: #FCFCFC;
+}
+.tasDF :last-child{
+    margin-bottom: 0;
+}
+.details20Open400TAS {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FCFCFC;
+    line-height: 150%;
+    margin-top: 20px;
+}
+
+.details24500 {
+    color: #FCFCFC;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 150%;
+    margin-top: 20px;
+}
+
+.mobOnly {
+    display: none;
+}
+
+.detail16Po {
+    font-size: 32px;
+    line-height: 120%;
+    font-weight: 600;
+    color: #FCFCFC;
+}
+
+.details20500Y {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    color: #FCFCFC;
+}
+
+.detail16Po400 {
+    font-size: 20px;
+    line-height: 120%;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.detailsTas {
+    font-size: 18px;
+    color: #FCFCFC;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.icon{
+    position: relative;
+    width: 25px;
+    height: 25px;
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width:1024px)  {
+    .TAS_Lets_talk_container2R {
+        display: block;
+        height: auto;
+    }
+}
+@media screen and (min-device-width: 480px) and (max-device-width:767px) {
+    .details20Open400TAS {
+        font-size: 16px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .details24500 {
+        font-size: 20px;
+        padding: 0 10px;
+        margin-top: 15px;
+    }
+
+    .textCntrMob {
+        text-align: center;
+    }
+
+    .webOnly {
+        display: none;
+    }
+
+    .mobOnly {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .TAS_Lets_talk_container2 {
+        padding: 20px 20px;
+        height: auto;
+        display: block;
+        /* margin: 40px 0; */
+    }
+    
+.TAS_Lets_talk_container2L {
+    border-bottom: 1px solid #FCFCFC;
+    border-right: none;
+    padding-bottom: 28px;
+    padding-right: 0;
+}
+.TAS_Lets_talk_container2R_img {
+    width: 121px;
+    height: 121px;
+}
+/* .TAS_Lets_talk_container2R_img .img {
+    position: absolute;
+    bottom: -2px;
+    right: -6px;
+    width: 121px;
+    height: 124px;
+} */
+.TAS_Lets_talk_container2R {
+    padding-left: 0px;
+    padding-top: 0px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: 7px;
+}
+.tasDF {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.TAS_Lets_talk_container2RMain{
+    padding-top: 18px;
+    padding-left: 0;
+}
+.detail16Po {
+    font-size: 24px;
+    text-align: center;
+}
+.TAS_Lets_talk_container2R_content{
+    margin-top: 20px;
+}
+.details20500Y{
+    font-size: 20px;
+}
+.detailsTas,.tasDF  {
+    font-size: 16px;
+    
+}
+.icon{
+    width: 20px;
+    height: 16px;
+}
+}
+
+@media screen and (max-device-width: 480px) {
+    .details20Open400TAS {
+        font-size: 16px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .details24500 {
+        font-size: 20px;
+        padding: 0 10px;
+        margin-top: 15px;
+    }
+
+    .textCntrMob {
+        text-align: center;
+    }
+
+    .webOnly {
+        display: none;
+    }
+
+    .mobOnly {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .TAS_Lets_talk_container2 {
+        padding: 20px 20px;
+        height: auto;
+        display: block;
+        /* margin: 40px 0; */
+    }
+    
+.TAS_Lets_talk_container2L {
+    border-bottom: 1px solid #FCFCFC;
+    border-right: none;
+    padding-bottom: 28px;
+    padding-right: 0;
+}
+.TAS_Lets_talk_container2R_img {
+    width: 121px;
+    height: 124px;
+}
+/* .TAS_Lets_talk_container2R_img .img {
+    position: absolute;
+    bottom: -2px;
+    right: -6px;
+    width: 121px;
+    height: 124px;
+} */
+.TAS_Lets_talk_container2R {
+    padding-left: 0px;
+    padding-top: 0px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: 7px;
+}
+.tasDF {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.TAS_Lets_talk_container2RMain{
+    padding-top: 18px;
+    padding-left: 0;
+}
+.detail16Po {
+    font-size: 24px;
+    text-align: center;
+}
+.TAS_Lets_talk_container2R_content{
+    margin-top: 20px;
+}
+.details20500Y{
+    font-size: 20px;
+}
+.detailsTas,.tasDF  {
+    font-size: 16px;
+    
+}
+.icon{
+    width: 20px;
+    height: 16px;
+}
+}

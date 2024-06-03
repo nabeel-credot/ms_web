@@ -1,0 +1,374 @@
+.container,.containerCT{
+    padding-bottom: 20px;
+}
+.HomePadding{
+    padding: 80px 0 0;
+}
+.CTPadding{
+    padding: 40px 0 0;
+}
+.heading{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 120%;
+    color: #212120;
+}
+.heading2{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #212120;
+    margin-top: 30px;
+}
+.heading2CG{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #212120;
+    /* margin-top: 30px; */
+}
+.logoAB{
+    position: relative;
+    width: 119px;
+    height: 96px;
+}
+.subHeading{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #212120;
+    margin-top: 30px; 
+}
+.subHeadingPay{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #212120;
+}
+.subdetail{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #212120;
+    margin-top:15px;
+}
+.subContentsCT{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #212120;
+    margin-top: 30px;
+}
+.subContents{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #212120;
+    margin-top: 30px;
+}
+.subContents div{
+    margin-top:15px;
+}
+.subContentsVAT{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #212120;
+}
+.subContentsVAT div{
+    margin-top: 15px;
+}
+.subContentsVAT div:first-child{
+    margin-top: 30px;
+}
+.marginBt{
+    margin-bottom: 30px;
+}
+.serviceWrap{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.marginHome{
+    margin-top: 60px;
+}
+.serviceWrap2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.marginRight{
+    margin-right: 40px;
+}
+/* .marginBtm{
+    margin-bottom: 50px;
+} */
+.box{
+    width: 400px;
+    margin-bottom: 50px;
+}
+.boxHome{
+    width: 48%;
+    margin-bottom: 50px; 
+}
+.boxPayroll{
+    width: 65%;
+    margin-bottom: 50px; 
+}
+.boxPayroll{
+    width: 50%;
+    margin-bottom: 50px; 
+}
+/* .box:last-child{
+    margin-bottom: 0;
+} */
+.top{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #212120;
+    padding-bottom: 15px;
+}
+.heightAB{
+    height: 100px;
+}
+.topESR{
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 2px solid #212120;
+    padding-bottom: 15px;
+}
+.num{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #D4AE31;
+    line-height: 120%;
+    margin-top: 10px;
+}
+.numHome{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #D4AE31;
+    line-height: 120%;
+    margin-top: 10px;
+}
+.numAB{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #212120;
+    line-height: 120%;
+    /* margin-top: 28px; */
+}
+.numAB1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #212120;
+    line-height: 120%;
+    margin-top: 28px;
+}
+.abDetails{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #212120;
+    line-height: 120%;
+    margin-top: 15px;
+}
+.abDetails div{
+    margin-top: 15px;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 24px;
+    color:#212120;
+    line-height: 120%;
+    margin-top: 20px;
+}
+
+.titleESR{
+    font-weight: 400;
+    font-size: 24px;
+    color:#212120;
+    line-height: 120%;
+    margin-top: 20px;
+}
+.sub_titleESR{
+    font-weight: 400;
+    font-size: 20px;
+    color:#212120;
+    line-height: 120%;
+    margin-top: 20px;
+}
+.listESR ul {
+    list-style: none;
+    margin: 20px 0;
+    margin-left: 10px;
+    padding: 0;
+}
+.listESR ul li{
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    color:#212120;
+    margin-bottom: 10px;
+}
+.listESR ul li .key{
+    margin-left: 10px;
+}
+.keyWidth{
+    width: 90%;
+}
+.listESRhead{
+    font-weight: 400;
+    font-size: 18px;
+    color:#212120;
+    line-height: 110%;
+    margin-top: 20px;
+}
+.details{
+    margin-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.detailsP{
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.marginTop{
+    margin-top: 20px;
+}
+
+.subcontent{
+   margin-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+@media screen and (min-device-width: 667px) and (max-device-width:1320px)  {
+    
+    .boxHome,.box{
+        width: 48%;
+    }
+    .serviceWrap2{
+        justify-content: space-between;
+    }
+    .marginRight{
+        margin-right: 0;
+    }
+  
+}
+@media screen and (max-device-width: 900px){
+    .box:last-child{
+        margin-bottom: 0;
+    }
+}
+@media screen and (min-device-width: 480px) and (max-device-width:667px) {
+    .boxHome,.box{
+        width: 100%;
+    }
+    .marginRight{
+        margin-right: 0;
+    }
+    .title,.titleESR{
+        font-size: 20px;
+    }
+    .subContents,.subContentsCT,.subContentsVAT{
+        font-size: 18px;
+    }
+    .heading{
+        font-size: 24px;
+    }
+    .HomePadding{
+        padding: 40px 0;
+    }
+    .containerCT{
+        padding-bottom: 0;
+    }
+}
+@media screen and (max-device-width: 480px) {
+    .HomePadding{
+        padding: 40px 0;
+    }
+    .container{
+        padding-bottom: 40px;
+    }
+    .containerCT{
+        padding-bottom: 0;
+    }
+    .heading{
+        font-size: 24px;
+    }
+    .title,.titleESR{
+        font-size: 20px;
+    }
+    .marginRight{
+        margin-right: 0;
+    }
+    .subContents,.subContentsCT,.subContentsVAT{
+        font-size: 18px;
+    }
+    .subContents{
+        margin-top: 20px;
+    }
+    .subContentsCT{
+        margin-top: 0;
+    }
+    .marginBt0{
+        margin-bottom: 0;
+    }
+
+    .boxHome{
+        width: 100%;
+    }
+    .num{
+        font-size: 24px;
+        margin-top: 18px;
+    }
+  
+    .numAB,.numHome,.numAB1{
+        font-size: 32px;
+        margin-top: 28px;
+    }
+    .subHeading,.subHeadingPay{
+        font-size: 24px;
+      
+    }
+    .logoAB{
+    position: relative;
+    width: 115px;
+    height: 64px;
+}
+.box{
+    margin-bottom: 40px;
+}
+
+.boxPayroll{
+    width: 100%;
+    margin-bottom: 0;
+}
+.subContentsVAT div:first-child{
+    margin-top: 0px;
+}
+.heading2CG{
+   
+    margin-top: 0px;
+}
+.abDetails{
+    font-size: 16px;
+}
+.details{
+    font-size: 16px;
+}
+.mobMar{
+    margin-top: 30px;
+}
+}

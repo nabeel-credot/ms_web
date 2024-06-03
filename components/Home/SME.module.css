@@ -1,0 +1,246 @@
+.sme_main{
+    padding:0;
+    border-radius: 0 0;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
+  
+.blue_container {
+    background-color: #192B3A;
+    width: 100%;
+    border-radius: 0 100px;
+    padding: 80px 90px;
+  }
+  .sme_container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .sme_left,
+  .sme_right {
+    flex: 1;
+  }
+  .sme_heading h3{
+    margin: 0;
+    font-size: 36px;
+    line-height: 110%;
+    font-style: normal;
+    line-height: 110%;
+    font-weight: 500;
+    color: #FCFCFC;
+  }
+  .mobOnly, .mobOnlyImg{
+    display: none;
+  }
+  .sme_detail {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #FCFCFC;
+    line-height: 150%;
+    /* width: 94%; */
+    margin-top: 20px;
+    font-style: normal;
+  }
+  .sme_right {
+    margin-top: 70px;
+  }
+  .sme_initiatives {
+    /* padding: 0 70px; */
+  }
+  .sme_subHeading {
+    font-size: 36px;
+    color: #FFFFFF;
+    line-height: 110%;
+    margin-top: 30px;
+  }
+  .sme_sub {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    /* justify-content: space-between; */
+  }
+  .webOnly{
+    width: 100%;
+  }
+  .webOnlyMS{
+    width: 100%;
+    border:1px solid #D4AE31;
+    border-top-right-radius:25px;
+    height:119px;
+  }
+  .sme_box{
+    width: 18%;
+    margin-right: 20px;
+  }
+ 
+
+
+  .sme_box:hover .smeArrow {
+    /* position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: 99; */
+    display: block;
+    cursor: pointer;
+  }  
+  
+.smeContent {
+    background-color: #D4AE31;
+    border-bottom-left-radius: 40px;
+    margin-top: -10px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 20px;
+    transition: .3s;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 125%;
+    width: 100%;
+  }
+  .smeContent .arrow {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .smeContent .arrow:after {
+    content: url("/images/smeArrow.svg");
+    position: absolute;
+    opacity: 0;
+    top: 30px;
+    right:20px;
+    transition: 0.5s;
+  }
+  
+  .smeContent:hover .arrow:after {
+    opacity: 1;
+    right: 10px;
+  }
+  
+  .smeArrow {
+    display: none;
+  }
+  @media only screen and (max-width: 1240px) {
+    .sme_sub{
+      justify-content: center;
+    }
+    .webOnlyMS{
+      height: 168px;
+    }
+    .sme_box{
+      width:auto;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  }
+  @media only screen and (max-width: 1024px) {
+    .sme_container {
+        flex-direction: column;
+    }
+    .sme_initiatives{
+        padding: 0;
+        justify-content: center;
+      }
+  }
+
+  @media screen and (min-device-width: 480px)
+and (max-device-width:768px){
+  .sme_main{
+    padding:0;
+    border-radius: 0 0;
+  }
+  .blue_container {
+    border-radius: 0;
+    padding: 30px;
+  }
+  .sme_heading h3{
+    font-size: 24px;
+    margin-top: 60px;
+    line-height: 110%;
+    margin-top: 20px;
+
+  }
+  .mobOnly,.mobOnlyImg{
+    display: block;
+  }
+  .mobOnlyImg{
+    border:1px solid #D4AE31;
+    height:160px;
+    display:flex;
+    justify-content:center;
+  }
+  .sme_detail{
+    font-size: 14px;
+  }
+  .webOnly,.webOnlyMS{
+    display: none;
+  }
+  .sme_initiatives{
+    padding: 0;
+  }
+  .sme_box{
+    margin-bottom: 30px;
+    width: 351px;
+  }
+  .smeContent{
+    border-bottom-left-radius: 0;
+  }
+  .sme_sub{
+    justify-content: center;
+  }
+}
+
+  @media screen and (max-device-width: 480px) {
+    .sme_main{
+        padding:0;
+        border-radius: 0 0;
+      }
+      .blue_container {
+        border-radius: 0;
+        padding: 30px;
+      }
+      .sme_heading h3{
+        font-size: 24px;
+        margin-top: 60px;
+        line-height: 110%;
+        margin-top: 10px;
+    
+      }
+      .mobOnly{
+        display: block;
+      }
+      .sme_detail{
+        font-size: 14px;
+      }
+      .webOnly, .webOnlyMS{
+        display: none;
+      }
+      .sme_initiatives{
+        padding: 0;
+      }
+      .sme_box{
+        margin-bottom: 30px;
+        width: 351px;
+        margin-right: 0;
+      }
+      .smeContent{
+        border-bottom-left-radius: 0;
+      }
+      .sme_detail {
+        width: 100%;
+        margin-top: 0;
+      }
+    
+      .mobOnlyImg{
+        border:1px solid #D4AE31;
+        height:160px;
+        display:flex;
+        justify-content:center;
+      }
+  }

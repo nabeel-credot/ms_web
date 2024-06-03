@@ -1,0 +1,215 @@
+.FBA_section2_container {
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.FBA_section3_L ul,.FBA_section4_L ul{
+    margin-top: 15px;
+    margin-left: -40px
+}
+.FBA_section3_L ul li,.FBA_section4_L ul li{
+    list-style: none;
+    margin-bottom: 10px;
+    transition: .3s;
+    display: flex;
+    cursor: pointer;
+}
+.FBA_section3_L ul li {
+    font-size: 18px;
+}
+.FBA_section4_L ul li .key,
+.FBA_section3_L ul li .key{
+    margin-left: 15px;
+}
+.FBA_section4_L ul li {
+    font-size: 24px;
+    color: #192B3A;
+}
+
+.FBA_section3 {
+    padding: 80px 0px;
+}
+
+.FBA_section4 {
+    width: 100%;
+    padding: 80px 0px 0;
+}
+
+.FBA_section3_sub {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.FBA_section3_L,
+.FBA_section3_R,
+.FBA_section4_L {
+    flex: 1;
+    /* border: 1px solid red; */
+}
+
+.FBA_section3_R {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.WhatYouGetWithMs_container3 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 80px 0px;
+}
+.WhatYouGetWithMs_left5 {
+    background-color: #192B3A;
+    width: 523px;
+    height: 261px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.WhatYouGetWithMs_left5 .heading {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 110%;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+.WhatYouGetWithMs_right7 {
+    box-shadow: 4px 4px 4px 4px rgba(217, 217, 217, 0.58);
+    background-color: #FCFCFC;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 1272px;
+    height: 300px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    margin-top: 120px;
+    margin-left: -90px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.WhatYouGetWithMs_box3 {
+    width: 50%;
+    display: flex;
+}
+.yellowBgImg3 {
+    background-color: #D4AE31;
+    width: 100%;
+    max-width: 100px;
+    height: 80px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.whatYouGetWithMsDetail8 {
+    color: #212120;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 120%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.expertMobWrap{
+    display: none;
+}
+.imgBox{
+    width: 30%;
+  }
+  .contentBox{
+      width: 70%;
+  }
+@media only screen and (max-width: 1200px) {
+    .FBA_section2_container,
+    .FBA_section3 {
+        padding: 80px 20px;
+    }
+    .FBA_section3_sub
+     {
+        flex-direction: column;
+        align-items: center;
+    }
+    .expertMobWrap{
+        display: none;
+    }
+}
+@media screen and (min-device-width: 480px)
+and (max-device-width:768px){
+    .FBA_section2_container,.FBA_section3,.WhatYouGetWithMs_container3 ,.FBA_section4 {
+        padding: 40px 20px;
+    }
+    .FBA_section3_L ul li,.FBA_section4_L ul li {
+        font-size: 16px;
+    }
+    .WhatYouGetWithMs_left5,.WhatYouGetWithMs_right7{
+        display: none;
+    }
+   
+    .whatYouGetWithMsDetail8{
+        font-size: 16px;
+        margin-top: 0;
+        padding: 0;
+        font-family: 400;
+        margin-top: 0px;
+        margin-left: 10px;
+        margin-right: 0;
+    }
+    .expertMobWrap{
+        display: block;
+    }
+    .expertMobWrap h3{
+        font-size: 24px;
+        text-align: center;
+        font-weight: 600;
+        line-height: 120%;
+    }
+ 
+    .displayFlex{
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-device-width: 480px) {
+    .FBA_section2_container,.FBA_section3,.WhatYouGetWithMs_container3 ,.FBA_section4 {
+        padding: 40px 0px;
+    }
+    .FBA_section3_L ul li,.FBA_section4_L ul li {
+        font-size: 16px;
+    }
+    .WhatYouGetWithMs_left5,.WhatYouGetWithMs_right7{
+        display: none;
+    }
+   
+    .whatYouGetWithMsDetail8{
+        font-size: 16px;
+        margin-top: 0;
+        padding: 0;
+        font-family: 400;
+        margin-top: 0px;
+        margin-left: 10px;
+        margin-right: 0;
+    }
+    .expertMobWrap{
+        display: block;
+    }
+    .expertMobWrap h3{
+        font-size: 24px;
+        text-align: center;
+        font-weight: 600;
+        line-height: 120%;
+    }
+ 
+    .displayFlex{
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+}

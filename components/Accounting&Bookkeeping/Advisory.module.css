@@ -1,0 +1,376 @@
+.Advisory_section_container {
+    background-color: #192B3A;
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.Advisory_section_sub {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.logoWrap{
+    position: relative;
+    width: 182px;
+    height: 181px;
+}
+.Advisory_section_sub_R {
+    flex: 1;
+    padding-left: 60px;
+}
+.marginBottom{
+    margin-bottom: 38px;
+}
+
+.Advisory_section_sub_L {
+    background-color: #FCFCFC;
+    width: 447px;
+    height: 441px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.Advisory_section_sub2 {
+    margin-top: 60px;
+    border: 4px solid #D4AE31;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    padding: 60px 100px;
+}
+
+.Advisory_section_sub2List {
+    margin-top: 60px;
+}
+
+.Advisory_services_container {
+    width: 100%;
+    padding: 80px 20px;
+}
+.Advisory_section_sub_R ul,
+.Advisory_section_sub2List ul,
+.Vat_Advisory_section2_List ul{
+    margin-top: 15px;
+    margin-left: -40px
+}
+
+.Advisory_section_sub_R ul li,
+.Advisory_section_sub2List ul li,
+.Vat_Advisory_section2_List ul li{
+    list-style: none;
+    margin-bottom: 10px;
+    transition: .3s;
+    display: flex;
+    cursor: pointer;
+}
+.Vat_Advisory_section2_List ul li{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.Advisory_section_sub_R ul li .key,
+.Advisory_section_sub2List ul li .key,
+.Vat_Advisory_section2_List ul li .key{
+    margin-left: 15px;
+}
+.Advisory_section_sub_R ul li {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 110%;
+    margin-bottom: 15px;
+}
+
+.Advisory_section_sub2List ul li {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 110%;
+    margin-bottom: 20px;
+}
+.Advisory_section2_sub_L,
+.Advisory_section2_sub_R {
+    margin-top: 30px;
+    flex: 1;
+}
+
+.Advisory_services2_container {
+    width: 100%;
+    padding: 0 0px 80px;
+}
+
+.Advisory_services_sub {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Advisory_services_subL,.Advisory_services_subR {
+    border: 4px solid #D4AE31;
+    border-radius: 10px;
+    padding: 0px 80px;
+    width: 49%;
+    height: 644px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.mobOnly{
+    display: none;
+}
+.detail{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #212120;
+    line-height: 120%;
+}
+.headingY24500 {
+    font-size: 24px;
+    line-height: 110%;
+    color: #D4AE31;
+    font-weight: 500;
+}
+.heading32B500 {
+    color: #212120;
+    font-size: 32px;
+    line-height: 110%;
+    font-weight: 500;
+}
+
+.Vat_advisory_Section_container {
+    padding: 80px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Vat_advisory_Section_L {
+    flex: 1;
+}
+
+.Vat_advisory_Section_R {
+    background-color: #192B3A;
+    width: 485px;
+    height: 472px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+.details24400W {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-top: 20px;
+}
+.vatDetails_width {
+    width: 85%;
+}
+
+.vatDetails2_width {
+    width: 89%;
+}
+
+.vatAdvisory_section_sub {
+    margin-top: 60px;
+    width: 997px;
+    border: 4px solid #D4AE31;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    padding: 60px;
+}
+.vatBanner2_right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    /* border: 1px solid red; */
+}
+.Vat_Advisory_section2_List ul li {
+    color: #FFFFFF;
+    font-weight: 300;
+    /* font-size: 18px;
+    line-height: 120%; */
+}
+.margin60{
+    margin-top: 60px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .Advisory_services_container,
+    .Advisory_section_container,  .Vat_advisory_Section_container{
+    padding: 80px 20px;
+}
+.Advisory_section_sub{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.vatAdvisory_section_sub {
+    width: auto;
+}
+
+}
+
+@media screen and (min-device-width: 768px)
+and (max-device-width:1024px){
+
+    .Advisory_services_sub {
+        justify-content:center ;
+    }
+}
+
+@media screen and (min-device-width: 480px)
+and (max-device-width:768px){
+    .webOnly{
+        display: none;
+    }
+    .mobOnly{
+        display: block;
+    }
+    .Advisory_section_container,.Advisory_section_sub2 , .Advisory_services_container,
+    .Vat_advisory_Section_container,.vatAdvisory_section_sub {
+        padding: 40px 20px;
+    }
+    .Advisory_services2_container{
+        padding: 0px 20px 40px;   
+    }
+    .Advisory_section_sub_L {
+        width: auto;
+        padding: 30px;
+        order:2;
+        height: 350px;
+    }
+    .Advisory_section_sub_R{
+        order: 1;
+        padding-left: 0;
+    }
+    .Advisory_section_sub_R ul li {
+        font-size: 16px;
+    }
+    .headingY24500,.heading32B500{
+        font-size: 24px;
+    }
+    .Advisory_section_sub2List ul li{
+        font-size: 14px;
+    }
+    .Advisory_services_subL {
+        width: auto;
+        padding: 20px;
+        height: 436px;
+        margin-bottom: 20px;
+    }
+    .Advisory_services_subR {
+        width: auto;
+        padding: 0;
+        height: 524px;
+    }
+    
+    .vatDetails_width , .vatDetails2_width {
+        width: 100%;
+    }
+    .Vat_advisory_Section_R {
+        background-color: #FFFFFF;
+        height: 351px;
+        color: #212120;
+        margin-top: 20px;
+    }
+    .details24400W {
+        font-size: 16px;
+    }
+    .Vat_Advisory_section2_List ul li {
+        font-size: 18px;
+        line-height: 120%;
+    }
+    .margin60{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-device-width: 480px)  {
+    .marginBottom{
+        margin-bottom: 10px;
+    }
+    .webOnly{
+        display: none;
+    }
+    .mobOnly{
+        display: block;
+    }
+    .logoWrap{
+        position: relative;
+        width: 126px;
+        height: 125px;
+    }
+    .Advisory_section_container,
+    .Vat_advisory_Section_container {
+        padding: 40px 0px;
+    }
+    .Advisory_services_container{
+        padding: 40px 0px 30px;   
+    }
+    .Advisory_services2_container{
+        padding: 0px 0px 40px;   
+    }
+    .Advisory_section_sub2,.vatAdvisory_section_sub{
+        padding: 40px 20px;
+    }
+    .Advisory_section_sub_L {
+        width: auto;
+        padding: 30px;
+        order:2;
+        height: 350px;
+    }
+    .Advisory_section_sub_R{
+        order: 1;
+        padding-left: 0;
+    }
+    .Advisory_section_sub_R ul li {
+        font-size: 16px;
+    }
+    .headingY24500,.heading32B500{
+        font-size: 24px;
+    }
+    .Advisory_section_sub2List ul li{
+        font-size: 14px;
+    }
+    .Advisory_services_subL {
+        width: auto;
+        padding: 20px;
+        height: 436px;
+        margin-bottom: 20px;
+    }
+    .Advisory_services_subR {
+        width: auto;
+        padding: 0;
+        height: 524px;
+    }
+    
+    .vatDetails_width , .vatDetails2_width {
+        width: 100%;
+    }
+    .Vat_advisory_Section_R {
+        background-color: #FFFFFF;
+        height: 351px;
+        color: #212120;
+        margin-top: 20px;
+    }
+    .details24400W {
+        font-size: 16px;
+    }
+    .Vat_Advisory_section2_List ul li {
+        font-size: 18px;
+        line-height: 120%;
+    }
+    .margin60{
+        margin-top: 30px;
+    }
+}

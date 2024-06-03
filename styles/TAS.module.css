@@ -1,0 +1,37 @@
+.container{
+    background-color: #F5F5F5;
+    color: #212120;
+}
+.banner_container{
+    width: 100%;
+background-color: #F5F5F5;
+    position: relative;
+}
+.menu{
+display: flex;
+}
+
+.mobOnly{
+    display: none;
+}
+.footer{
+    background-color: #192B3A;
+    border-top-right-radius: 100px;
+  }
+@media screen and (min-device-width: 480px)
+and (max-device-width:768px){
+    .webOnly{
+        display: none;
+    }
+    .mobOnly{
+        display: block;
+    }  
+}
+@media screen and (max-device-width: 480px) {
+    .webOnly{
+        display: none;
+    }
+    .mobOnly{
+        display: block;
+    }
+}

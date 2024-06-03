@@ -1,0 +1,763 @@
+
+.header{
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 0px;
+    background: transparent;
+}
+
+.lw{
+  position: relative;
+  width: 210px;
+  height: 78px;
+}
+.header .menu{
+    display: flex;
+   column-gap: 20px;
+}
+.header ul{
+  margin: 0;
+  padding: 0;
+}
+.header li,.headerNew li{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    /* background-color:transparent;
+    padding: 10px 25px; */
+    list-style: none;
+    cursor: pointer;
+    transition: .3s;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+/* .header li .liSpcl{
+  margin-left: 0;
+} */
+/* .header li:first-child,.headerNew li:first-child{
+  margin-left: 0;
+} */
+/* .header li:last-child{
+color: #192B3A;
+background-color: #D4AE31;
+width: 180px;
+height: 60px;
+font-size: 20px;
+border-radius: 0px 25px;
+display: flex;
+align-items: center;
+justify-content: center;
+} */
+
+.smartup{
+  position: relative;
+  width: 85px;
+  height: 24px;
+transition: .3s;
+}
+.smartup:hover{
+  border-bottom: 1px solid #D4AE31;
+}
+.header li:last-child:hover{
+color: #192B3A;
+}
+.header a{
+    text-decoration: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    /* transition: .6s ease-in-out; */
+  }
+  /* .dropdown_content {
+    display: none;
+    background-color:#FCFCFC;
+    border-radius: 15px;
+    border: 1px solid red;
+    box-shadow: 0px 4px rgba(0,0,0,0.08);
+    z-index: 999;
+    font-size: 16px;
+  } */
+  .dropdown_content_howMain{
+    display: none;
+    background-color:transparent;
+    z-index:999;
+    width: 1281px;
+padding-top: 20px;
+   /* height: 390px;  */
+   position: absolute;
+left:-376px;
+
+  }
+  .dropdownMain{
+    display: none;
+    background-color:transparent;
+    z-index:999;
+    font-size: 18px;
+    width: 197px;
+padding-top: 20px;
+   /* height: 390px;  */
+   position: absolute;
+left:-50px;
+
+  }
+  .dropdown_content{
+     width: 197px;
+     background-color:#FCFCFC;
+     border-radius: 15px;
+     box-shadow: 0px 4px rgba(0,0,0,0.08);
+     padding: 20px 20px;
+  }
+  .dropdown_content_how{
+    background-color:#FCFCFC;
+    border-radius: 15px;
+    
+    box-shadow: 0px 4px rgba(0,0,0,0.08);
+  display: flex;
+
+  padding: 30px 10px;
+  } 
+
+  .dropdown_content_how> * {
+    flex: 1;
+  }
+ .dropdown_content_how .section{
+  /* flex: 1; */
+  padding: 0 15px;
+  } 
+  /* .dropdown_content_how .section:nth-child(4){
+    flex: 1.3;
+    }  */
+  .dropdown_content div,.dropdown_content_how .section div{
+    color: #212120;
+    /* */
+    border-radius: 15px;
+     /* transition:.3s; */
+     /* padding: 12px 16px; */
+    text-decoration: none;
+    display: block;
+    text-transform: capitalize;
+
+  }
+
+  .dropdown_content div{
+    line-height: 120%;
+    font-weight: 500;
+    font-size: 16px;   
+    margin-bottom: 20px;
+  }
+  .dropdown_content div:last-child{
+    margin-bottom: 0;
+  }
+ 
+  .dropdown_content_how .section div:first-child{
+    opacity: 1;
+    color: #212120;
+  }
+  .dropdown .hoverArrow{
+    display: none;
+
+  }
+
+.dropdownTitle{
+  height: 100px;
+  font-size: 18px;
+font-weight: 500;
+line-height: 120%;
+color: #212120;
+}
+.list{
+  font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 20px;
+    position: relative;
+    
+}
+
+.list::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px; 
+  width: 0%;
+  height: 2px;
+  background-color: #D4AE31; 
+  transition: width 0.3s ease;
+}
+
+.list:hover::after {
+  width: 80%;
+}
+
+  
+  .dropdown:hover .dropdownMain {display: block}
+  .dropdown:hover .dropdown_content_howMain{
+    display: flex;
+  }
+
+  .dropdown:hover .hoverArrow{
+    display: block;
+  }
+
+.dropdown:hover .defaultArrow{
+    display:none;
+}
+.dropdown_content div:hover{
+  color:#D4AE31
+}
+.dropdown_content_howMain div:hover{
+color:#D4AE31;
+}
+.linkOther{
+  margin-bottom: 15px;
+}
+.mobOnly{
+  display: none;
+}
+
+.title{
+  font-size: 18px;
+font-weight: 600;
+line-height: 120%;
+cursor: pointer;
+color: #FFFFFF;
+}
+.titleY{
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 120%;
+    cursor: pointer;
+    color: #D4AE31;
+}
+.button{
+  width: 180px;
+  height: 60px;
+  background-color: #D4AE31;
+  color: #192B3A;
+  border-radius: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  cursor: pointer;
+  border: none;
+  }
+  .button_home{
+  border: 2px solid #192B3A;
+  width: 180px;
+  height: 60px;
+  background-color: #D4AE31;
+  color: #192B3A;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  cursor: pointer;
+  }
+  
+  .arrow{
+    padding-left: 7px;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 10px; */
+    /* position: relative;
+    width: 18px;
+    height: 17px; */
+  }
+  .button:hover .arrow{
+   padding-left: 20px;
+  } 
+  .arrowMob{
+    display: none;
+  }
+  @media screen and (max-width: 1340px) {
+    .dropdown_content_howMain{
+      left: -445px;
+      width: 1000px;
+    }
+    .dropdownTitle{
+      height: 100px;
+    }
+    .header .menu{
+      column-gap: 10px;
+    }
+    /* .header li{
+      margin-left: 18px;
+    } */
+  }
+@media screen and (max-width: 1282px) {
+  .header li{
+    font-size: 16px;
+    /* margin-left: 12px; */
+  }
+  .header .menu{
+    column-gap: 5px;
+  }
+  .button{
+    width: 100px;
+    height: 45px;
+    font-size: 13px;
+    border-radius: 15px
+  }
+   .button_home{
+    width: 100px;
+    height: 45px;
+    font-size: 13px;
+    border-radius: 0px 15px
+  }
+  .arrow{
+    display: none;
+  }
+  /* .miniLogo{
+    display: none;
+  } */
+
+}
+@media screen and (max-width: 1070px) {
+  .miniLogo{
+    display: none;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .header{
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+  .miniLogo{
+    display: block;
+  }
+}
+
+
+@media screen and (min-device-width: 480px)
+and (max-device-width: 1024px){
+  .box{
+    width: 100%
+ }
+ .btn {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.my_collapse {
+  overflow: hidden;
+  transition: height 0.5s ease-in-out;
+}
+
+  .header{
+    padding:  30px;
+  }
+  
+.headerNew{
+  width: 100%;
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding: 10px 90px;
+  background: transparent;
+}
+  .header .menu{
+    display: none;
+}
+ .menuToggler{
+  background-image: url("/images/togglerW.png") ;
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+  display: block;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+ .menuTogglerNew{
+  background-image: url("/images/togglerWR.png") ;
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+  display: block;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+.menuTogglerY{
+  background-image: url("/images/togglerY.png") ;
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+  display: block;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+ .menuTogglerNewY{
+  background-image: url("/images/togglerYR.png") ;
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+  display: block;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+.headerNew .menuActive{
+  width: 83%;
+  height: auto;
+  position: absolute;
+  top:-10px;
+  left:0px;
+  z-index: 9999999;
+  background-color: #192B3A;
+  color: #000;
+  padding-bottom: 40px;
+}
+.headerNew li{
+  color: #FCFCFC;
+margin-left: 0px;
+padding: 10px 0;
+/* border-bottom: 1px solid #ffffff; */
+}
+
+.headerNew li:last-child{
+  border-bottom: none;
+}
+.dropdown{
+  width: 100%;
+}
+.dropdownMob{
+  width: 100%;
+
+}
+.dropdown_mob{
+  color: #FCFCFC;
+
+}
+.dropdown_mob div{
+  /* border-bottom: 1px solid #ffffff; */
+/* width: 100%; */
+/* padding: 10px 0;
+padding-left: 30px; */
+font-weight: 400;
+font-size: 16px;
+}
+.borderBt{
+  border-bottom: 1px solid #ffffff;
+}
+/* .dropdown_mob div:last-child{
+  border: none;
+} */
+.dropdown_mob li:hover{
+  color: #D4AE31;
+}
+.dropdown_mob_sub div{
+  font-size: 14px;
+}
+.webOnly,.webOnly1{
+  display: none;
+}
+.mobOnly{
+  display: block;
+}
+.headerNew li:last-child{
+  display: none;
+}
+}
+
+@media screen and (max-device-width: 480px) {
+  .lw{
+    width: 161px;
+    height: 60px;
+  }
+  .box{
+    width: 100%
+ }
+ .btn {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.my_collapse {
+  overflow: hidden;
+  transition: height 0.5s ease-in-out;
+}
+
+  .header{
+    padding:  30 0px;
+  }
+  
+.headerNew{
+  width: 100%;
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding: 10px 90px;
+  background: transparent;
+}
+  .header .menu{
+    display: none;
+}
+ .menuToggler{
+  background-image: url("/images/togglerW.png") ;
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+  display: block;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+ .menuTogglerNew{
+  background-image: url("/images/togglerWR.png") ;
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+  display: block;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+.menuTogglerY{
+  background-image: url("/images/togglerY.png") ;
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+  display: block;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+ .menuTogglerNewY{
+  background-image: url("/images/togglerYR.png") ;
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+  display: block;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+.headerNew .menuActive{
+  width: 83%;
+  height: auto;
+  position: absolute;
+  top:-10px;
+  left:0px;
+  z-index: 9999999;
+  background-color: #192B3A;
+  color: #000;
+  padding-bottom: 40px;
+}
+.headerNew li{
+  color: #FCFCFC;
+margin-left: 0px;
+padding: 10px 0;
+/* border-bottom: 1px solid #ffffff; */
+}
+
+.headerNew li:last-child{
+  border-bottom: none;
+}
+.dropdown{
+  width: 100%;
+}
+.dropdownMob{
+  width: 100%;
+
+}
+.dropdown_mob{
+  color: #FCFCFC;
+
+}
+.dropdown_mob div{
+  /* border-bottom: 1px solid #ffffff; */
+/* width: 100%; */
+/* padding: 10px 0;
+padding-left: 30px; */
+font-weight: 400;
+font-size: 16px;
+}
+.borderBt{
+  border-bottom: 1px solid #ffffff;
+}
+/* .dropdown_mob div:last-child{
+  border: none;
+} */
+.dropdown_mob li:hover{
+  color: #D4AE31;
+}
+.dropdown_mob_sub div{
+  font-size: 14px;
+}
+.webOnly,.webOnly1{
+  display: none;
+}
+.mobOnly{
+  display: block;
+}
+.headerNew li:last-child{
+  display: none;
+}
+}
+
+
+
+@media screen and (max-device-width: 640px)
+and (orientation: landscape) {
+  .box{
+    width: 100%
+ }
+ .btn {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.my_collapse {
+  overflow: hidden;
+  transition: height 0.5s ease-in-out;
+}
+
+  .header{
+    padding:  30px;
+  }
+  
+.headerNew{
+  width: 100%;
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding: 10px 90px;
+  background: transparent;
+}
+  .header .menu{
+    display: none;
+}
+ .menuToggler{
+  background-image: url("/images/togglerW.png") ;
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+  display: block;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+ .menuTogglerNew{
+  background-image: url("/images/togglerWR.png") ;
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+  display: block;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+.menuTogglerY{
+  background-image: url("/images/togglerY.png") ;
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+  display: block;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+ .menuTogglerNewY{
+  background-image: url("/images/togglerYR.png") ;
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+  display: block;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+.headerNew .menuActive{
+  width: 83%;
+  height: auto;
+  position: absolute;
+  top:-10px;
+  left:0px;
+  z-index: 9999999;
+  background-color: #192B3A;
+  color: #000;
+  padding-bottom: 40px;
+}
+.headerNew li{
+  color: #FCFCFC;
+margin-left: 0px;
+padding: 10px 0;
+/* border-bottom: 1px solid #ffffff; */
+}
+
+.headerNew li:last-child{
+  border-bottom: none;
+}
+.dropdown{
+  width: 100%;
+}
+.dropdownMob{
+  width: 100%;
+
+}
+.dropdown_mob{
+  color: #FCFCFC;
+
+}
+.dropdown_mob div{
+  /* border-bottom: 1px solid #ffffff; */
+/* width: 100%; */
+/* padding: 10px 0;
+padding-left: 30px; */
+font-weight: 400;
+font-size: 16px;
+}
+.borderBt{
+  border-bottom: 1px solid #ffffff;
+}
+/* .dropdown_mob div:last-child{
+  border: none;
+} */
+.dropdown_mob li:hover{
+  color: #D4AE31;
+}
+.dropdown_mob_sub div{
+  font-size: 14px;
+}
+.webOnly,.webOnly1{
+  display: none;
+}
+.mobOnly{
+  display: block;
+}
+.headerNew li:last-child{
+  display: none;
+}
+}
+

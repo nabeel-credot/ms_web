@@ -1,0 +1,231 @@
+
+.howCanWeHelp_container {
+    width: 100%;
+    /* display: flex;
+    flex-wrap: wrap; */
+    padding: 80px 0px 80px;
+    /* justify-content: space-between;
+    flex-direction: row; */
+    background-color: #FFFFFF;
+  }
+  .howCanWeHelp_content {
+    margin-top: 50px;
+  
+  }
+  .main{
+    display: flex;
+    flex-direction: row;
+  }
+  .columns {
+    margin: 30px auto;
+    margin-bottom: 0;
+    flex: 1;
+}
+.howCanWeHelp_left{
+  padding-top: 20px;
+}
+.howCanWeHelp_left,
+.howCanWeHelp_right {
+  flex: 1;
+}
+.howCanWeHelp_left{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.howCanWeHelp_right{
+    display: flex;
+    justify-content: flex-end;
+    height: 741px;
+}
+
+.howHelp_heading h3{
+    margin: 0;
+    font-size: 36px;
+    line-height: 110%;
+    font-style: normal;
+  font-weight: 500;
+}
+
+.form_heading h3 {
+    color: #212120;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 35px 80px;
+  }
+  
+  .form_heading1 {
+    color: #212120;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    padding:60px 30px;
+  
+  }
+  
+  .form input {
+    padding: 14px;
+    font-size: 18px;
+    color: #212120;
+    border-radius: 10px;
+    background-color: #F0F0F0;
+    margin-bottom: 10px;
+    border: none;
+  }
+  .form input::placeholder,.form textarea::placeholder {
+    color: #212120;
+    font-size: 18px;
+    opacity: .6;
+  }
+  .form textarea{
+    border-radius: 10px;
+    padding: 16px;
+    font-size: 18px;
+    color: #212120;
+    background-color: #F0F0F0;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+}
+  .mobOnly{
+    display: none;
+  }
+  .webOnly{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .info{
+    font-size: 18px;
+   font-family: 'Open Sans', sans-serif;
+   line-height: 150%;
+   text-align: center;
+   padding: 0 50px;
+   cursor: pointer;
+  }
+  .info span{
+    margin-left: 5px;
+    font-weight: 600;
+  }
+  @media screen and (min-device-width: 768px)
+and (max-device-width: 1024px){
+    .howCanWeHelp_container {
+        flex-direction: column;
+      }
+      
+}
+
+
+@media screen and (min-device-width: 480px)
+and (max-device-width:768px){
+    .howCanWeHelp_container{
+        display: block;
+        padding: 30px 0;
+      }
+      .howHelp_heading h3{
+        font-size: 24px;
+      }
+      .mobOnly{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .main{
+        flex-direction: column;
+      }
+      .info{
+        padding: 0;
+        font-size: 14px;
+      }
+      .form{
+        padding: 40px 20px;
+      }
+      .howCanWeHelp_right{
+        height: auto;
+      }
+}
+
+
+@media screen and (max-device-width: 480px)  {
+    .howCanWeHelp_container{
+        display: block;
+        padding: 30px 0;
+      }
+      .howCanWeHelp_left{
+        padding-top: 10px;
+      }
+      .howHelp_heading h3{
+        font-size: 24px;
+      }
+      .howCanWeHelp_content{
+        margin-top: 30px;
+      }
+      .webOnly{
+        display: none;
+      }
+      .mobOnly{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .main{
+        flex-direction: column;
+      }
+      .info{
+        padding: 0;
+        font-size: 14px;
+      }
+      .form{
+        padding: 40px 20px;
+      }
+      .form input,.form textarea{
+        max-width: 100%;
+      }
+      .howCanWeHelp_right{
+        height: auto;
+      }
+}
+
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px) and (orientation: landscape) {
+  .howCanWeHelp_right{
+    height: auto;
+  }
+  .howCanWeHelp_container{
+    display: block;
+    padding: 30px 0;
+  }
+  .howCanWeHelp_left{
+    padding-top: 10px;
+  }
+  .howHelp_heading h3{
+    font-size: 24px;
+  }
+  .howCanWeHelp_content{
+    margin-top: 30px;
+  }
+      .webOnly{
+        display: none;
+      }
+      .mobOnly{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .main{
+        flex-direction: block;
+      }
+      .info{
+        padding: 0;
+        font-size: 14px;
+      }
+      .form{
+        padding: 40px 20px;
+      }
+}

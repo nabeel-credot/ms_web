@@ -1,0 +1,24 @@
+.WhatYouGetWithMs_container3 {
+    width: 100%;
+    background-color: rgba(212, 174, 49, 0.17);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 80px 90px;
+}
+.WhatYouGetWithMs_left2 {
+    background-color: #192B3A;
+    width: 416px;
+    height: 271px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.WhatYouGetWithMs_left2 .heading2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 110%;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding-top: 15%;
+    padding-left: 30px;
+}

@@ -1,0 +1,233 @@
+.consultant_container{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  padding-bottom: 50px;
+  color:#212120;
+  background-color: #FFFFFF;
+}
+
+.c_left ul {
+
+    margin: 30px 0;
+    margin-top: 40px;
+    padding: 0;
+  }
+  .c_left ul li {
+    cursor: pointer;
+    list-style: none;
+    margin-bottom: 25px;
+    font-size: 20px;
+    transition: .3s;
+    display: flex;
+  }
+  .c_left ul li .key {
+    margin-left: 15px;
+    color:#212120;
+    font-size: 20px;
+  }
+  .yArrow {
+    display: none;
+  }
+  .c_left ul li:hover .yArrow{
+  margin-left: 10px;
+  display: block;
+}
+.c_left ul li:hover .wArrow {
+  display: none;
+}
+.c_left ul li:hover{
+  margin-left: 30px;
+  color: #D4AE31;
+}
+.c_left
+ {
+  flex: 1;
+}
+.c_heading h3 {
+  margin: 0;
+  font-size: 36px;
+  line-height: 110%;
+  font-style: normal;
+  line-height: 110%;
+  font-weight: 500;
+  color:#212120;
+  
+}
+.c_right {
+    position: relative;
+    width: 628px;
+    height: 504px;
+    background-image: url('/images/tax_consultant_ImgN.png');
+    background-repeat: no-repeat;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+  }
+  .borderBottom {
+    border-bottom: 15px solid #D4AE31;
+    position: absolute;
+    bottom: 3px;
+    width: 50%;
+  }
+  
+  .borderLeft {
+    width: 50%;
+    border-left: 15px solid #D4AE31;
+    position: absolute;
+    top: 50%;
+    left: -14px;
+    bottom: 3px;
+  }
+  
+  .borderTop {
+    border-top: 15px solid #D4AE31;
+    position: absolute;
+    top: -14px;
+    right: -14px;
+    width: 50%;
+  }
+  
+  .borderRight {
+    width: 50%;
+    border-right: 15px solid #D4AE31;
+    position: absolute;
+    bottom: 50%;
+    right: -14px;
+    top: 0px;
+  }
+.keyWidth{
+  width: 90%;
+}
+
+@media screen and (min-device-width: 1024px)
+and (max-device-width: 1170px){
+.consultant_container{
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+.c_right{
+  order: 1;
+  margin-bottom: 40px;
+}
+.c_left{
+  order: 2;
+}
+}
+@media screen and (min-device-width: 480px)
+and (max-device-width: 768px){
+  .consultant_container{
+    padding: 30px 0;
+    padding-bottom: 0;
+    flex-direction: column;
+  } 
+  .c_right{
+    margin-top: 60px;
+    order: 1;
+    width: auto;
+    /* height: 300px; */
+    background-size: cover;
+  }
+  .borderBottom ,.borderLeft{
+    bottom: 0px;
+  }
+  .c_left{
+    order: 2;
+  }
+  .c_left ul li {
+    font-size: 18px;
+  }
+  .c_heading h3 {
+    font-size: 24px;
+    margin-top: 60px;
+    line-height: 110%;
+  }
+  .c_left ul li .key{
+    font-size: 18px;
+  }
+}
+@media screen and (max-device-width: 480px) {
+    .consultant_container{
+        padding: 30px 0;
+        padding-bottom: 0;
+        flex-direction: column;
+      } 
+      .c_right{
+        order: 1;
+        width: auto;
+        height: 300px; 
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        background-size: cover;
+      }
+      .c_left{
+        order: 2;
+      }
+      .borderBottom ,.borderLeft{
+        bottom: -15px;
+      }
+      .c_left ul li {
+        font-size: 18px;
+        transition: .3s;
+      }
+      .c_heading h3 {
+        font-size: 24px;
+        margin-top: 60px;
+        line-height: 110%;
+      }
+      .c_left ul li .key{
+        font-size: 18px;
+
+      }
+      .c_left ul li:hover .yArrow{
+        margin-left: 0;
+      }
+      .c_left ul li:hover{
+        margin-left: 0;
+     
+      }
+      .c_left ul li:hover .key{
+        color: #D4AE31;
+      }
+}
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px) and (orientation: landscape) {
+  .consultant_container{
+    padding: 30px 0;
+    padding-bottom: 0;
+    flex-direction: column;
+  } 
+  .c_right{
+    order: 1;
+    width: auto;
+    height: 300px;
+    background-size: cover;
+  }
+  .c_left{
+    order: 2;
+  }
+  .c_left ul li {
+    font-size: 18px;
+  }
+  .c_heading h3 {
+    font-size: 24px;
+    margin-top: 60px;
+    line-height: 110%;
+  }
+}
+
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1024px){
+  .consultant_container{
+    flex-direction: column;
+  }
+  .c_right{
+    order: 1;
+    margin-bottom: 30px;
+  }
+  .c_left{
+    order:2;
+  }
+}

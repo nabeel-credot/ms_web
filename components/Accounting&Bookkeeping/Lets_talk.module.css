@@ -1,0 +1,53 @@
+
+.letsTalk_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.letsTalk_container_R {
+    margin-left: 60px;
+}
+.mobOnly{
+    display: none;
+}
+@media screen and (min-device-width: 480px)
+and (max-device-width:768px){
+    
+    .webOnly{
+        display: none;
+    }
+.letsTalk_container_R {
+    margin-left: 0px;
+}
+.mobOnly{
+display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.spclWidth{
+    padding: 0 30px;
+    text-align: center;
+}
+}
+@media screen and (max-device-width: 480px) {
+    
+    .webOnly{
+        display: none;
+    }
+.letsTalk_container_R {
+    margin-left: 0px;
+}
+.mobOnly{
+display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.spclWidth{
+    padding: 0 30px;
+    text-align: center;
+}
+}

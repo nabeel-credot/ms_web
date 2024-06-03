@@ -1,0 +1,117 @@
+.container{
+
+    width: 100%;
+    /* padding:220px 90px 90px ; */
+ 
+    /* background-image:
+  linear-gradient( rgba(25,43,58, 0.95), rgba(25,43,58, 0.95)),
+  url('/images/bg1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
+.banner_heading{
+    font-size: 48px;
+    font-weight: 600;
+    color: #FFFFFF;  
+    line-height: 110%;
+}
+.banner_content{
+    font-size: 24px;
+    line-height: 120%;
+    color: #FFFFFF;
+    width: 65%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.mobBtn{
+    display: none;
+}
+@media only screen and (max-width: 1200px){
+  .banner_heading{
+    font-size: 36px;
+} 
+}
+@media screen and (min-device-width: 480px)
+and (max-device-width:667px){
+  .container{
+    padding:40px 0px 50px ;
+  }
+  .banner_heading{
+      font-size: 24px;
+      text-align: center;
+  }
+  .banner_content{
+      font-size: 16px;
+      text-align: center;
+      width: 100%;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-bottom: 30px;
+  }
+  .webBtn{
+  display: none;
+  }
+  .mobBtn{
+      display: flex;
+align-items: center;
+justify-content: center;
+  }
+}
+
+
+  /*For Mobile Portrait view*/
+
+  @media screen and (max-device-width: 480px) {
+    .container{
+      padding:40px 0px 50px ;
+    }
+    .banner_heading{
+        font-size: 24px;
+        text-align: center;
+    }
+    .banner_content{
+        font-size: 16px;
+        text-align: center;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 30px;
+    }
+    .webBtn{
+    display: none;
+    }
+    .mobBtn{
+        display: flex;
+align-items: center;
+justify-content: center;
+    }
+  }
+   
+  /* For Mobile Landscape View */
+  @media screen and (max-device-width: 640px)
+  and (orientation: landscape) {
+    .container{
+        padding:140px 15px 0 ;
+      }
+      .banner_heading{
+          font-size: 24px;
+          text-align: center;
+      }
+      .banner_content{
+          font-size: 16px;
+          text-align: center;
+          width: 100%;
+          padding-left: 10px;
+          padding-right: 10px;
+          margin-bottom: 30px;
+      }
+      .webBtn{
+        display: none;
+        }
+        .mobBtn{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+  }

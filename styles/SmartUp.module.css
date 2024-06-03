@@ -1,0 +1,1272 @@
+.container {
+  background-color: #ffffff;
+  color: #212120;
+  position: relative;
+}
+.banner_container {
+  width: 100%;
+  background-color: #192b3a;
+  position: relative;
+}
+.redBgWrap {
+  width: 100%;
+  background-color: #f8f1dc;
+}
+.islandcontainer{
+  margin-top: 70px;
+}
+
+.blueBgWrap {
+  width: 100%;
+  background-color: #192b3a;
+}
+.height100 {
+  height: 100vh;
+}
+.yellowBgWrap {
+  width: 100%;
+  background-color: #d4ae31;
+}
+.ashBgWrap {
+  width: 100%;
+  background-color: #f5f5f5;
+}
+.whiteBg {
+  padding-bottom: 80px;
+  width: 100%;
+  background-color: #ffffff;
+}
+.downloadContainerGray {
+  width: 100%;
+  background-color: #192b3a;
+}
+.contactSection {
+  background: linear-gradient(
+    to bottom,
+    #fff 63%,
+    #fff 50%,
+    #d4ae31 50%,
+    #d4ae31 100%
+  );
+}
+.banner_popup{
+  color: #00466D;
+background-color: white;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+display: flex;
+align-items: center;
+gap: 10px;
+cursor: pointer;
+border-top-left-radius: 25px;
+padding: 20px 40px 20px 16px
+
+}
+
+.appointmentdiv:hover{
+  background-color:#D4AE31 ;
+  border-top-left-radius: 25px
+}
+.banner_popup:hover .appointmentImage {
+  content: url('/images/pophead.svg');
+}
+.banner_popup:hover{
+  color: #D4AE31;
+}
+.banner_popup_difc{
+  color: #3C166B;
+background-color: white;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+display: flex;
+align-items: center;
+gap: 10px;
+cursor: pointer;
+border-top-left-radius: 25px;
+padding: 20px 40px 20px 16px
+
+}
+.banner_popup_difc:hover .appointmentImage {
+  content: url('/images/pophead.svg');
+}
+.banner_popup_difc:hover{
+  color: #D4AE31;
+}
+.banner_popup_difc img{
+  width: 40px;
+  height: 40px;
+  }
+
+  .banner_popup_dmcc{
+  color: #E40D75;
+background-color: white;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+display: flex;
+align-items: center;
+gap: 10px;
+cursor: pointer;
+border-top-left-radius: 25px;
+padding: 20px 40px 20px 16px
+
+}
+
+.banner_popup_dmcc:hover .appointmentImage {
+  content: url('/images/pophead.svg');
+}
+.banner_popup_dmcc:hover{
+  color: #D4AE31;
+}
+.banner_popup_dmcc img{
+  width: 40px;
+  height: 40px;
+  }
+  .banner_popup_accounting{
+    color: #002A3A;
+    background-color: white;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    border-top-left-radius: 25px;
+    padding: 20px 40px 20px 16px
+  }
+  .banner_popup_accounting:hover .appointmentImage {
+    content: url('/images/pophead.svg');
+  }
+  .banner_popup_accounting:hover{
+    color: #D4AE31;
+  }
+  .banner_popup_accounting img{
+    width: 40px;
+    height: 40px;
+    }
+/* .banner_popup:hover .appointhover{
+  padding-left: 5px;
+  margin-right: -5px;
+} */
+.appointwrapper{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  inset: 0;
+ background-color:  rgba(30, 30, 30, 0.50);
+ z-index: 99999;
+}
+.banner_popup img{
+width: 40px;
+height: 40px;
+}
+.appointmentdiv{
+  position: absolute;
+    bottom: 0px;
+    right: 0;
+}
+.banner_container_adgmnew {
+  width: 100%;
+  height: 90vh;
+ background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+linear-gradient(96.08deg, rgba(0, 70, 109, 0.6) 52.35%, rgba(24, 44, 60, 0) 75.44%), 
+    url("/images/ADGM_newbanner1.webp");
+  /* background-position: right; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  place-items: end;
+    
+ }
+.banner_container_home {
+  width: 100%;
+  height: 90vh;
+  background: linear-gradient(0deg, rgba(25, 43, 58, 0.59), rgba(25, 43, 58, 0.59)),
+  linear-gradient(180deg, rgba(25, 43, 58, 0) 0%, #002A3A 100%),   
+    url("/images/home_banner.svg");
+  /* background-position: right; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+    place-items: end;
+ 
+}
+.banner_container_news_blogs {
+  width: 100%;
+  height: 80vh;
+  background-image: 
+    url("/images/news&blogs.svg");
+  /* background-position: right; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+    place-items: end
+ 
+}
+.banner_container_advisorynew {
+  width: 100%;
+  height: 90vh;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+linear-gradient(100.68deg, rgba(25, 43, 58, 0.39) 28.91%, rgba(24, 44, 60, 0) 74.99%),url("/images/advisory.jpg");
+  /* background-position: right; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+    place-items: end;
+    background-position: center;
+ 
+}
+.advisory_guid{
+  margin-bottom: 100px;
+}
+
+.banner_container_subadvisorynew {
+  width: 100%;
+  height: 80vh;
+  background-image: 
+    url("/images/subadvisory.jpg");
+  /* background-position: right; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+    place-items: end
+ 
+}
+.banner_container_buy_side_advisorynew {
+  width: 100%;
+  height: 80vh;
+  background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  linear-gradient(100.68deg, rgba(25, 43, 58, 0.39) 28.91%, rgba(24, 44, 60, 0) 74.99%), 
+    url("/images/Buy side advisory .webp");
+  /* background-position: right; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+    place-items: end;
+    background-position: center;
+ 
+}
+
+.banner_container_sell_side_advisorynew {
+  width: 100%;
+  height: 80vh;
+  background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  linear-gradient(100.68deg, rgba(25, 43, 58, 0.39) 28.91%, rgba(24, 44, 60, 0) 74.99%), 
+    url("/images/Sell_side_Advisory_-transformed.webp");
+  /* background-position: right; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+    place-items: end;
+    /* background-position: center; */
+ 
+}
+
+.banner_container_transaction_advisorynew {
+  width: 100%;
+  height: 80vh;
+  background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  linear-gradient(100.68deg, rgba(25, 43, 58, 0.39) 28.91%, rgba(24, 44, 60, 0) 74.99%), 
+    url("/images/Transaction_Advisory-transformed.webp");
+  /* background-position: right; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+    place-items: end;
+    background-position: center;
+ 
+}
+.banner_container_ma_advisorynew {
+  width: 100%;
+  height: 80vh;
+  background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  linear-gradient(100.68deg, rgba(25, 43, 58, 0.39) 28.91%, rgba(24, 44, 60, 0) 74.99%), 
+    url("/images/Mergers___Acquisition_-transformed.webp");
+  /* background-position: right; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+    place-items: end;
+    /* background-position:center; */
+ 
+}
+
+.banner_container_dmccnew {
+  width: 100%;
+  height: 90vh;
+  background-image: 
+    url("/images/dmccbanner.jpg");
+  /* background-position: right; */
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+    place-items: end
+ 
+}
+.banner_container_accounting {
+  width: 100%;
+  height: 80vh;
+  background-image:url("/images/Accounting_bannerimg.webp");
+  /* background-position: right; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+   justify-content: center;
+   align-items: center;
+ 
+}
+.banner_container_accounting_bookkeeping {
+  width: 100%;
+  height: 80vh;
+  background-image: url("/images/Bookkeeping_bannerimg_account.webp");
+  /* background-position: right; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+   justify-content: center;
+   align-items: center;
+ 
+}
+.banner_container_accounting_payroll {
+  width: 100%;
+  height: 80vh;
+  background-image: url("/images/Payroll_bannerimg_account.webp");
+  /* background-position: right; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+   justify-content: center;
+   align-items: center;
+ 
+}
+
+
+.banner_container_difcnew {
+  width: 100%;
+  height: 90vh;
+  background-image: url("/images/corporate_bannerdifc.webp");
+  /* background-position: right; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+   justify-content: center;
+   align-items: center;
+   /* background-position: center; */
+ 
+}
+.banner_container_difccorporate {
+  width: 100%;
+  height: 80vh;
+  background-image: url("/images/difcbannernew1.webp");
+  /* background-position: right; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+   justify-content: center;
+   align-items: center;
+ 
+}
+
+.banner_container_Compliance_filing {
+  width: 100%;
+  height: 80vh;
+  background: linear-gradient(108.83deg, rgba(24, 44, 60, 0) -98.04%, rgba(0, 0, 0, 0.46) 64.61%),
+                url("/images/Compliance_filing_banner.webp");
+  /* background-position: right; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+   justify-content: center;
+   align-items: center;
+  
+}
+.banner_container_outsourced_MLRO{
+  width: 100%;
+  height: 80vh;
+  background: linear-gradient(108.83deg, rgba(24, 44, 60, 0) -98.04%, rgba(0, 0, 0, 0.46) 64.61%),
+                url("/images/Compliance_filing_banner.webp");
+  /* background-position: right; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+   justify-content: center;
+   align-items: center; 
+}
+.home_featuresContainer{
+  padding-bottom: 100px;
+}
+.yms_homContainer{
+  padding-top: 80px;
+}
+.video1{
+  margin-top: 76px;
+}
+.video2{
+  display: flex;
+  justify-content: space-between;
+}
+.advantage_container{
+  margin: 70px 0;
+}
+.banner_container_service {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+    place-items: end;
+  /* min-height: 100vh; */
+  /* background-image: linear-gradient( rgba(0, 70, 109, 0.39), rgba(24, 44, 60, 0.69),rgba(0, 0, 0, 0.53)), url("/images/comp.jpg"); */
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+linear-gradient(98.29deg, rgba(0, 70, 109, 0.79) 59.88%, rgba(24, 44, 60, 0) 98.29%),url("/images/ADGM_service1.webp");
+  /* background-image: 
+    url("/images/service.jpg"); */
+  /* background-position: right; */
+  /* background-size: cover; */
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.banner_container_dmccsubservice {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+    place-items: end;
+ 
+background-image: url("/images/dmccsubservice.jpg");
+ 
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.banner_container_service_companyform {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+    place-items: end;
+  /* min-height: 100vh;linear-gradient( rgba(0, 70, 109, 0.39), rgba(24, 44, 60, 0.69),rgba(0, 0, 0, 0.53)), url("${bgimage}")` */
+  background-image: linear-gradient( rgba(0, 70, 109, 0.39), rgba(24, 44, 60, 0.69),rgba(0, 0, 0, 0.53)), url("/images/comp.jpg");
+  /* url("/images/companyformation.jpg")`; */
+  /* background-position: right; */
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.banner_container_al_reem {
+  width: 100%;
+  height: 80vh;
+  /* min-height: 100vh; */
+  background-image: 
+    url("/images/al-reem-island-cover-ms.jpg");
+  /* background-position: right; */
+  background-size:  cover;
+  
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+    place-items: end
+}
+
+.banner_container_difc_service {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+    place-items: end;
+  /* min-height: 100vh; */
+  /* background-image: linear-gradient( rgba(0, 70, 109, 0.39), rgba(24, 44, 60, 0.69),rgba(0, 0, 0, 0.53)), url("/images/comp.jpg"); */
+background-image: url("/images/difc-service.svg");
+  /* background-image: 
+    url("/images/service.jpg"); */
+  /* background-position: right; */
+  /* background-size: cover; */
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+
+.banner_container_adgm {
+  width: 100%;
+  height: 70vh;
+  /* min-height: 100vh; */
+  background-image: linear-gradient(
+      rgba(25, 43, 58, 0.9),
+      rgba(25, 43, 58, 0.9)
+    ),
+    url("/images/ADGM.jpg");
+  /* background-position: right; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.banner_container_dmcc {
+  width: 100%;
+  height: 70vh;
+  /* min-height: 100vh; */
+  background-image: linear-gradient(
+      rgba(25, 43, 58, 0.9),
+      rgba(25, 43, 58, 0.9)
+    ),
+    url("/images/dmcc.jpg");
+  /* background-position: right; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.banner_container_difc{
+  width: 100%;
+ height: 70vh;
+  background-image: linear-gradient(
+      rgba(25, 43, 58, 0.9),
+      rgba(25, 43, 58, 0.9)
+    ),
+    url("/images/122.jpg");
+ background-size: 100% 100%;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  position: relative;
+  
+}
+.banner_container_masdar {
+  width: 100%;
+  height: 70vh;
+  /* min-height: 100vh; */
+  background-image: linear-gradient(
+      rgba(25, 43, 58, 0.9),
+      rgba(25, 43, 58, 0.9)
+    ),
+    url("/images/masdar_bg.jpg");
+  /* background-position: right; */
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  position: relative;
+}
+.banner_container_Work {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-image: linear-gradient(
+      rgba(25, 43, 58, 0.9),
+      rgba(25, 43, 58, 0.9)
+    ),
+    url("/images/workBgN.png");
+}
+.banner_container_Thanku {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-image: linear-gradient(
+      rgba(25, 43, 58, 0.9),
+      rgba(25, 43, 58, 0.9)
+    ),
+    url("/images/thankYouBg.jpg");
+  background-position: bottom center;
+}
+.banner_container_Blue {
+  width: 100%;
+  /* min-height: 100vh; */
+  background-image: linear-gradient(
+      rgba(25, 43, 58, 0.9),
+      rgba(25, 43, 58, 0.9)
+    ),
+    url("/images/enterpriseBg.jpg");
+  /* background-position: top; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.banner_container_award {
+  width: 100%;
+  /* min-height: 70vh; */
+  background-image: linear-gradient(
+      rgba(25, 43, 58, 0.9),
+      rgba(25, 43, 58, 0.9)
+    ),
+    url("/images/enterpriseBg.jpg");
+  /* background-position: right; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-bottom: 50px;
+}
+.banner_container_contact {
+  width: 100%;
+  /* min-height: 70vh; */
+  background-image: linear-gradient(
+      rgba(25, 43, 58, 0.9),
+      rgba(25, 43, 58, 0.9)
+    ),
+    url("/images/MS- Newsand Blog -Banner.jpeg");
+  /* background-position: right; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: 100% 100%;
+}
+.banner_container_OtherServices {
+  width: 100%;
+  /* min-height: 100vh; */
+  background-image: linear-gradient(
+      rgba(25, 43, 58, 0.9),
+      rgba(25, 43, 58, 0.9)
+    ),
+    url("/images/otherServicesBg.png");
+  /* background-position: right; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.banner_container_work {
+  width: 100%;
+  /* min-height: 100vh; */
+  background-image: linear-gradient(
+      rgba(25, 43, 58, 0.5),
+      rgba(25, 43, 58, 0.5)
+    ),
+    url("/images/workWithUsBg.png");
+  /* background-position: right; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  border-bottom-left-radius: 100px;
+}
+.downloadContainerWhite {
+  padding-bottom: 100px;
+}
+.WhiteBg90 {
+  padding-bottom: 90px;
+}
+.service_container {
+  width: 100%;
+  background-color: #192b3a;
+}
+.meetYourteam_container {
+  width: 100%;
+  background-color: #f5f5f5;
+}
+.LearnMoreMS_container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.award_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.topWhiteBg {
+  width: 100%;
+  padding-top: 100px;
+}
+.slider_container {
+  width: 100%;
+  padding-top: 100px;
+  /* background-color: #F5F5F5; */
+}
+.slider_title {
+  font-size: 36px;
+  line-height: 110%;
+  color: #212120;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact_whiteTopBg {
+  width: 100%;
+  padding-top: 100px;
+}
+.footer {
+  background-color: #192b3a;
+  border-top-right-radius: 100px;
+}
+
+.MenuBar {
+  width: 100%;
+  background-color: #192b3a;
+}
+.marginTp,
+.marginTp20M,
+.marginTpW,
+.marginTp25m,
+.marginTpW2 {
+  margin-top: 80px;
+}
+.marginTB {
+  margin: 80px 0;
+}
+.marginBtm {
+  margin-bottom: -80px;
+}
+.marginBt,
+.marginBt2 {
+  padding-bottom: 80px;
+}
+.marginTopM {
+  padding-top: -20px;
+}
+.marginVS {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.marginVG {
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+/* popup */
+.popup_div {
+  background: #192b3a65;
+
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+}
+.popup_container {
+  max-width: 580px;
+  overflow: hidden;
+  background-color: #f9f9f9;
+  border-radius: 0 25px 0 25px;
+  margin: auto;
+  color: #192b3a;
+  position: relative;
+  width: 100%;
+}
+
+.popup_bg_title {
+  white-space: nowrap;
+  background: #d4ae32;
+  width: max-content;
+  padding: 0 10px;
+  font-size: 20px;
+  margin-inline: auto;
+  border-radius: 0 15px 0 15px;
+  font-weight: 600;
+  padding: 0px 30px;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 21px;
+}
+
+.popup_head2 {
+  font-size: 24px;
+  /* line-height: 46px; */
+  text-align: center;
+  background-color: #f9f9f9;
+  max-width: 475px;
+  margin: auto;
+  padding: 32px 0px 21px 0px;
+}
+.popup_headsub {
+  font-weight: 600;
+  /* line-height: 46px; */
+}
+.popup_content {
+  background-color: white;
+  /* padding: 15px 157px; */
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+  padding: 9px 32px 32px 32px;
+}
+
+.popup_content p {
+  max-width: 637px;
+  margin: auto;
+}
+.popup_img {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  margin: auto;
+  margin-bottom: 19px;
+}
+.popup_button {
+  /* border: 2px solid #192B3A; */
+  /* width: 222px;
+    height: 78px; */
+  border-radius: 0px 15px;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  cursor: pointer;
+  background-color: #d5af32;
+  border: none;
+  height: 43px;
+  width: 170px;
+}
+
+.popup_close {
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  top: 32px;
+  right: 32px;
+}
+.popup_button_div {
+  display: flex;
+  gap: 42px;
+  justify-content: center;
+  padding: 22px 0px;
+}
+.popesr {
+  max-width: 435px !important;
+}
+.difcimage{
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
+.serviceYms{
+  background: #D5AF32;
+  margin-top: 150px;
+}
+.servicemedia{
+  margin-top: 60px;
+}
+.adgm_wing_cointainer{
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.mobAppoint{
+  display: none;
+}
+.mobAppointmerge_aq{
+  display: none;
+}
+.mobvideo1{
+  display: none;
+}
+.mobvideo1home{
+  display: none;
+}
+.test_circle{
+  width: 40px;
+  height: 40px;
+  background-color: #EDEDED;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.customtitlediv{
+  margin-bottom: 30px;
+  display: flex;
+}
+.newsBlogWrapper{
+  margin-top: 70px;
+}
+.faqWrapper{
+  background: #F5F5F5;
+  margin-top: 119px
+}
+.faqWrapper_alreem{
+  background: #F5F5F5;
+}
+.guidenceWraper{
+  margin-top: 121px;
+}
+.footerWrapper{
+   margin-top: 100px; 
+}
+.video2arrows{
+  display: none;
+ 
+}
+.comapanyformWrapper{
+  margin-bottom: 70px;
+}
+.coporateserviceYms{
+  /* background-color:#192B3A ; */
+  margin-top: 150px;
+  /* color: white; */
+}
+
+.coporateserviceYms_difc{
+  /* background-color:#192B3A ; */
+  margin-top: 0px;
+  /* color: white; */
+}
+.testimonialvideowrapper{
+  margin-bottom: 100px;
+}
+.testimonialvideowrapper_difc{
+  margin-bottom: 50px;
+}
+.Difc_serviceContainer{
+  margin-bottom: 70px;
+}
+.privacyContainer{
+  margin-bottom: 70px;
+}
+.Account_serviceContainer{
+  margin-bottom: 70px;
+}
+.Home_serviceContainer{
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.home_businessContainer{
+  padding-top: 100px;
+}
+.assistContainer{
+  margin-bottom: 70px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .height100 {
+    height: 100vh;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .marginTpW,
+  .marginTpW2 {
+    margin-top: 0;
+  }
+  .marginBt2 {
+    padding-bottom: 0;
+  }
+}
+@media screen and (max-device-width: 780px) {
+  .banner_container_service{
+    display: flex;
+    place-items: end;
+  }
+
+  .banner_container_dmccsubservice{
+
+    display: flex;
+    place-items: end;
+  }
+  .advantage_container{
+    margin: 50px 0;
+  }
+  .banner_container_service_companyform{
+    display: flex;
+    place-items: end;
+  }
+  .marginVG {
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+  .newsBlogWrapper{
+    margin-top: 0;
+  }
+  .marginVS {
+    margin-top: 0;
+    margin-bottom: 0px;
+  }
+  .video2arrows{
+    display: flex;
+    gap: 15px;
+  }
+  .serviceYms{
+    margin-top: 97px;
+  }
+  .servicemedia{
+    margin-top: 20px;
+  }
+  .videocustom{
+    border-radius: 20px;
+  }
+  .appointmentdiv{
+    display: none;
+  }
+  .mobAppoint{
+    display: block;
+    background: #00466D;
+    color: #FFF;
+    margin-top: -2px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+  }
+  .mobAppointmerge_aq{
+    display: block;
+    background: #002A3A;
+    color: #FFF;
+    margin-top: -2px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+  }
+
+  .mobAppoint_difc{
+    display: block;
+    background: #3C166B;
+    color: #FFF;
+    margin-top: -2px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+  }
+  .mobAppoint_dmcc{
+    display: block;
+    background: #E40D75;
+    color: #FFF;
+    margin-top: -2px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+  }
+  .banner_popupmob{
+    display: flex;
+    gap: 10px;
+    padding: 25px 12px;
+    align-items: center;
+    /* justify-content: center; */
+    gap:20px;
+  }
+  .banner_popupmob img{
+    width: 35px;
+    height: 35px;
+  } 
+  .video1{
+    display: none;
+  }
+  .video1home{
+    display: none;
+  }
+  .mobvideo1home{
+    display: block;
+  }
+  .mobvideo1{
+    display: block;
+  }
+  .customtitlediv{
+    margin-bottom: 46px
+  }
+  .faqWrapper{
+   
+    margin-top: 45px;
+  }
+  .guidenceWraper{
+    margin-top: 0;
+  }
+  .footerWrapper{
+    margin-top: 0;
+  }
+  .banner_container_adgmnew{
+    display: flex;
+    place-items: end;
+    background-position: right;
+  }
+  
+  .banner_container_al_reem {
+    /* height: 100vh; */
+    display: flex;
+    place-items: end;
+  }
+  .banner_container_home{
+    display: flex;
+    place-items: end;
+  }
+  .banner_container_home{
+    display: flex;
+    place-items: end;
+  }
+  .banner_container_news_blogs{
+    display: flex;
+    place-items: end;
+  }
+  .banner_container_advisorynew{
+    display: flex;
+    place-items: end;
+  }
+
+  .banner_container_subadvisorynew{
+    display: flex;
+    place-items: end;
+  }
+  .banner_container_buy_side_advisorynew {
+    display: flex;
+    place-items: end;
+  }
+  .banner_container_sell_side_advisorynew{
+    display: flex;
+    place-items: end;
+  }
+  .banner_container_transaction_advisorynew {
+    display: flex;
+    place-items: end;
+  }
+  .banner_container_ma_advisorynew {
+    display: flex;
+    place-items: end;
+    
+  }
+  .advisory_guid{
+    margin-bottom: 50px;
+  }
+  .testimonialvideowrapper{
+  margin-bottom: 40px;
+}
+  .testimonialvideowrapper_difc{
+  margin-bottom: 30px;
+}
+.banner_container_outsourced_MLRO{
+  background-position: center;
+}
+
+  /* .banner_container_difcnew{
+    display: flex;
+   
+  } */
+
+}
+@media (max-width: 500px) {
+  .popup_bg_title {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-device-width: 480px) {
+  .whiteBg,
+  .downloadContainerWhite,
+  .WhiteBg90 {
+    padding-bottom: 40px;
+  }
+.banner_container_difc{
+  padding-bottom: 60px;
+}
+.home_featuresContainer{
+  padding-bottom: 0;
+}
+.yms_homContainer{
+  padding-top: 0;
+}
+.home_businessContainer{
+  padding-top: 60px;
+}
+.Account_serviceContainer{
+  margin-bottom: 40px;
+}
+.Home_serviceContainer{
+  margin-top: 235px;
+  margin-bottom: 235px;
+}
+.privacyContainer{
+  margin-bottom: 30px;
+}
+  .downloadContainerWhiteMob {
+    padding-bottom: 40px;
+  }
+  .topWhiteBg,
+  .slider_container {
+    padding-top: 40px;
+  }
+  .slider_title {
+    font-size: 24px;
+    padding-bottom: 20px;
+  }
+  .contact_whiteTopBg {
+    padding-top: 0;
+  }
+  .contactSection {
+    background: none;
+  }
+  .paddingUD {
+    padding: 40px 0 20px;
+  }
+  .marginTp {
+    margin-top: 40px;
+  }
+  .LearnMoreMS_container {
+    padding-top: 0px;
+    padding-bottom: 30px;
+  }
+  .marginTp20M {
+    margin-top: 20px;
+  }
+  .marginTpW {
+    margin-top: 0;
+  }
+  .marginTp25m {
+    margin-top: 25px;
+  }
+  .marginTp25mob,
+  .marginTpW2 {
+    margin-top: 20px;
+  }
+  .marginTB {
+    margin: 40px 0;
+  }
+  .marginBtm {
+    margin-bottom: -20px;
+  }
+  .marginBt {
+    padding-bottom: 40px;
+  }
+  .marginBt2,
+  .marginTopM {
+    padding-bottom: 0;
+  }
+}
+@media (max-width: 400px) {
+  .popup_bg_title {
+    font-size: 12px;
+  }
+}
+@media (max-width: 600px) {
+  .Home_serviceContainer{
+    margin-top: 235px;
+    margin-bottom: 235px;
+  }
+}
